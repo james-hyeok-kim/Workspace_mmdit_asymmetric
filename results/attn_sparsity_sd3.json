@@ -1,0 +1,3768 @@
+{
+  "config": {
+    "model": "sd3",
+    "n_prompts": 30,
+    "step_sample_indices": [
+      0,
+      4,
+      9,
+      13,
+      18,
+      22,
+      27
+    ]
+  },
+  "summary": {
+    "II_entropy_mean": 3.6422037922910286,
+    "TI_entropy_mean": 3.485258028313281,
+    "II_TI_entropy_ratio": 1.045031318399603,
+    "verdict": "REVIEW",
+    "criterion": "II_entropy < 50% of TI_entropy \u2192 asymmetric sparse mask justified"
+  },
+  "data": {
+    "0": {
+      "0": {
+        "TT": {
+          "entropy_mean": 3.1337467034657798,
+          "top5_coverage_mean": 0.2769350176056226,
+          "sparsity_mean": 0.9847835242748261
+        },
+        "TI": {
+          "entropy_mean": 2.512954004605611,
+          "top5_coverage_mean": 0.13070025742053987,
+          "sparsity_mean": 0.9998521288235982
+        },
+        "IT": {
+          "entropy_mean": 2.017920982837677,
+          "top5_coverage_mean": 0.1792676125963529,
+          "sparsity_mean": 0.9897834678490957
+        },
+        "II": {
+          "entropy_mean": 4.1942225933074955,
+          "top5_coverage_mean": 0.26792561312516533,
+          "sparsity_mean": 0.999029004573822
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 3.2482752005259194,
+          "top5_coverage_mean": 0.36930799186229707,
+          "sparsity_mean": 0.9815983057022095
+        },
+        "TI": {
+          "entropy_mean": 1.7936542510986329,
+          "top5_coverage_mean": 0.09725609123706817,
+          "sparsity_mean": 0.9998917996883392
+        },
+        "IT": {
+          "entropy_mean": 2.2757543961207074,
+          "top5_coverage_mean": 0.22891045957803727,
+          "sparsity_mean": 0.9875393152236939
+        },
+        "II": {
+          "entropy_mean": 3.550892186164856,
+          "top5_coverage_mean": 0.25010182708501816,
+          "sparsity_mean": 0.9990253110726675
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 3.2958115100860597,
+          "top5_coverage_mean": 0.39278690914312997,
+          "sparsity_mean": 0.9802647769451142
+        },
+        "TI": {
+          "entropy_mean": 1.5610851128896077,
+          "top5_coverage_mean": 0.09121180102229118,
+          "sparsity_mean": 0.999879268805186
+        },
+        "IT": {
+          "entropy_mean": 2.345565835634867,
+          "top5_coverage_mean": 0.24953472316265107,
+          "sparsity_mean": 0.9868161519368489
+        },
+        "II": {
+          "entropy_mean": 3.266593313217163,
+          "top5_coverage_mean": 0.25013361076513924,
+          "sparsity_mean": 0.9990688840548198
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 3.295928160349528,
+          "top5_coverage_mean": 0.4043487866719564,
+          "sparsity_mean": 0.9793446858723959
+        },
+        "TI": {
+          "entropy_mean": 1.4799126187960308,
+          "top5_coverage_mean": 0.09105849688251813,
+          "sparsity_mean": 0.9998693505922953
+        },
+        "IT": {
+          "entropy_mean": 2.3695392688115438,
+          "top5_coverage_mean": 0.25900012999773026,
+          "sparsity_mean": 0.9865703125794728
+        },
+        "II": {
+          "entropy_mean": 3.1295460065205893,
+          "top5_coverage_mean": 0.2531101152300835,
+          "sparsity_mean": 0.9991023421287537
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 3.2295357465744017,
+          "top5_coverage_mean": 0.4139264782269796,
+          "sparsity_mean": 0.9790640572706858
+        },
+        "TI": {
+          "entropy_mean": 1.4953432559967041,
+          "top5_coverage_mean": 0.10167484432458877,
+          "sparsity_mean": 0.9998261392116546
+        },
+        "IT": {
+          "entropy_mean": 2.3971134026845298,
+          "top5_coverage_mean": 0.26995783994595207,
+          "sparsity_mean": 0.9859999756018321
+        },
+        "II": {
+          "entropy_mean": 2.978739587465922,
+          "top5_coverage_mean": 0.25670761267344155,
+          "sparsity_mean": 0.9991439123948415
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 3.160206747055054,
+          "top5_coverage_mean": 0.4186708668867747,
+          "sparsity_mean": 0.9780947864055634
+        },
+        "TI": {
+          "entropy_mean": 1.5274187922477722,
+          "top5_coverage_mean": 0.1129284309844176,
+          "sparsity_mean": 0.9997686942418417
+        },
+        "IT": {
+          "entropy_mean": 2.403213135401408,
+          "top5_coverage_mean": 0.2854993810256322,
+          "sparsity_mean": 0.9853444655736288
+        },
+        "II": {
+          "entropy_mean": 2.880476196606954,
+          "top5_coverage_mean": 0.25162889858086906,
+          "sparsity_mean": 0.9991558631261189
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.650049432118734,
+          "top5_coverage_mean": 0.26428458193937937,
+          "sparsity_mean": 0.9844275017579397
+        },
+        "TI": {
+          "entropy_mean": 2.4877425114313763,
+          "top5_coverage_mean": 0.2752766698598862,
+          "sparsity_mean": 0.9990559120972952
+        },
+        "IT": {
+          "entropy_mean": 3.0380192836125692,
+          "top5_coverage_mean": 0.21193369179964067,
+          "sparsity_mean": 0.9869904935359954
+        },
+        "II": {
+          "entropy_mean": 2.3574760993321737,
+          "top5_coverage_mean": 0.23593641916910807,
+          "sparsity_mean": 0.999189035097758
+        }
+      }
+    },
+    "1": {
+      "0": {
+        "TT": {
+          "entropy_mean": 0.9567192514737447,
+          "top5_coverage_mean": 0.05954003172616164,
+          "sparsity_mean": 0.9957947134971619
+        },
+        "TI": {
+          "entropy_mean": 6.441102091471354,
+          "top5_coverage_mean": 0.2050711969534556,
+          "sparsity_mean": 0.999699862798055
+        },
+        "IT": {
+          "entropy_mean": 0.7581007023652394,
+          "top5_coverage_mean": 0.02120753042399883,
+          "sparsity_mean": 0.9988836387793223
+        },
+        "II": {
+          "entropy_mean": 5.622259092330933,
+          "top5_coverage_mean": 0.3991085807482401,
+          "sparsity_mean": 0.9992069125175476
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 1.000793594121933,
+          "top5_coverage_mean": 0.0608962698529164,
+          "sparsity_mean": 0.9955957412719727
+        },
+        "TI": {
+          "entropy_mean": 6.184259335199992,
+          "top5_coverage_mean": 0.239868534108003,
+          "sparsity_mean": 0.9996383786201477
+        },
+        "IT": {
+          "entropy_mean": 0.8951592127482096,
+          "top5_coverage_mean": 0.028502102444569268,
+          "sparsity_mean": 0.9979539354642232
+        },
+        "II": {
+          "entropy_mean": 5.244383748372396,
+          "top5_coverage_mean": 0.42239817380905154,
+          "sparsity_mean": 0.9991956353187561
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 1.1347398002942404,
+          "top5_coverage_mean": 0.0661004467556874,
+          "sparsity_mean": 0.9954805374145508
+        },
+        "TI": {
+          "entropy_mean": 5.974485985438029,
+          "top5_coverage_mean": 0.25028219521045686,
+          "sparsity_mean": 0.9996171176433564
+        },
+        "IT": {
+          "entropy_mean": 1.2222601413726806,
+          "top5_coverage_mean": 0.05566525670389334,
+          "sparsity_mean": 0.9952656706174214
+        },
+        "II": {
+          "entropy_mean": 4.601861890157064,
+          "top5_coverage_mean": 0.4303795963525772,
+          "sparsity_mean": 0.9990922232468923
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 1.2794421434402465,
+          "top5_coverage_mean": 0.06734862923622131,
+          "sparsity_mean": 0.9954933683077495
+        },
+        "TI": {
+          "entropy_mean": 5.816249847412109,
+          "top5_coverage_mean": 0.2522689605752627,
+          "sparsity_mean": 0.9996035019556682
+        },
+        "IT": {
+          "entropy_mean": 1.3868465145428976,
+          "top5_coverage_mean": 0.07419593930244446,
+          "sparsity_mean": 0.9936869402726491
+        },
+        "II": {
+          "entropy_mean": 4.243543116251628,
+          "top5_coverage_mean": 0.4336673061052958,
+          "sparsity_mean": 0.9990337292353312
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 1.4667504588762919,
+          "top5_coverage_mean": 0.06913524456322193,
+          "sparsity_mean": 0.9957713941733043
+        },
+        "TI": {
+          "entropy_mean": 5.6267542521158855,
+          "top5_coverage_mean": 0.24975290099779765,
+          "sparsity_mean": 0.9995810429255167
+        },
+        "IT": {
+          "entropy_mean": 1.5587887366612752,
+          "top5_coverage_mean": 0.08995166718959809,
+          "sparsity_mean": 0.9925495862960816
+        },
+        "II": {
+          "entropy_mean": 3.8807565609614056,
+          "top5_coverage_mean": 0.43542359868685404,
+          "sparsity_mean": 0.9989700277646383
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 1.519923194249471,
+          "top5_coverage_mean": 0.06926677450537681,
+          "sparsity_mean": 0.9962397277355194
+        },
+        "TI": {
+          "entropy_mean": 5.6000845273335775,
+          "top5_coverage_mean": 0.2476983721057574,
+          "sparsity_mean": 0.9995911478996277
+        },
+        "IT": {
+          "entropy_mean": 1.653773013750712,
+          "top5_coverage_mean": 0.1006974828739961,
+          "sparsity_mean": 0.9918561756610871
+        },
+        "II": {
+          "entropy_mean": 3.6745023488998414,
+          "top5_coverage_mean": 0.4346450259288152,
+          "sparsity_mean": 0.9989406804243723
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 1.894363804658254,
+          "top5_coverage_mean": 0.06466878491143385,
+          "sparsity_mean": 0.9970551451047261
+        },
+        "TI": {
+          "entropy_mean": 5.019416316350301,
+          "top5_coverage_mean": 0.23850749135017396,
+          "sparsity_mean": 0.9995642324288686
+        },
+        "IT": {
+          "entropy_mean": 2.0201624711354573,
+          "top5_coverage_mean": 0.08269503066937128,
+          "sparsity_mean": 0.9923699378967286
+        },
+        "II": {
+          "entropy_mean": 3.246514391899109,
+          "top5_coverage_mean": 0.4155334194501241,
+          "sparsity_mean": 0.9990549345811208
+        }
+      }
+    },
+    "2": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.1720265706380206,
+          "top5_coverage_mean": 0.12149106835325559,
+          "sparsity_mean": 0.9927933156490326
+        },
+        "TI": {
+          "entropy_mean": 5.1183290163675945,
+          "top5_coverage_mean": 0.11439089501897494,
+          "sparsity_mean": 0.9999922056992848
+        },
+        "IT": {
+          "entropy_mean": 1.215951156616211,
+          "top5_coverage_mean": 0.10782316625118256,
+          "sparsity_mean": 0.9910544375578563
+        },
+        "II": {
+          "entropy_mean": 5.625223954518636,
+          "top5_coverage_mean": 0.34903988540172576,
+          "sparsity_mean": 0.9993062873681386
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.170764136314392,
+          "top5_coverage_mean": 0.12152672335505485,
+          "sparsity_mean": 0.9926443457603454
+        },
+        "TI": {
+          "entropy_mean": 5.016295687357585,
+          "top5_coverage_mean": 0.14816960742076238,
+          "sparsity_mean": 0.9999838372071584
+        },
+        "IT": {
+          "entropy_mean": 1.0628497878710428,
+          "top5_coverage_mean": 0.09108754172921181,
+          "sparsity_mean": 0.9921009004116058
+        },
+        "II": {
+          "entropy_mean": 5.647234487533569,
+          "top5_coverage_mean": 0.4094487647215525,
+          "sparsity_mean": 0.9991950849692027
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.212192980448405,
+          "top5_coverage_mean": 0.1129337079823017,
+          "sparsity_mean": 0.9931326905886332
+        },
+        "TI": {
+          "entropy_mean": 4.928960196177164,
+          "top5_coverage_mean": 0.17013093928496043,
+          "sparsity_mean": 0.9999671717484792
+        },
+        "IT": {
+          "entropy_mean": 0.9347610195477803,
+          "top5_coverage_mean": 0.08715286950270335,
+          "sparsity_mean": 0.9927388886610667
+        },
+        "II": {
+          "entropy_mean": 5.4254763921101885,
+          "top5_coverage_mean": 0.4948984165986379,
+          "sparsity_mean": 0.9987172643343608
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.2985639254252117,
+          "top5_coverage_mean": 0.11114901478091875,
+          "sparsity_mean": 0.9929984152317047
+        },
+        "TI": {
+          "entropy_mean": 4.786336628595988,
+          "top5_coverage_mean": 0.18004104644060134,
+          "sparsity_mean": 0.9999481360117595
+        },
+        "IT": {
+          "entropy_mean": 0.8895163893699646,
+          "top5_coverage_mean": 0.08835975800951322,
+          "sparsity_mean": 0.9927591383457184
+        },
+        "II": {
+          "entropy_mean": 5.2221807161966955,
+          "top5_coverage_mean": 0.5437288423379262,
+          "sparsity_mean": 0.998357746998469
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.409145482381185,
+          "top5_coverage_mean": 0.10930066307385762,
+          "sparsity_mean": 0.99274134238561
+        },
+        "TI": {
+          "entropy_mean": 4.600602308909099,
+          "top5_coverage_mean": 0.1890327682097753,
+          "sparsity_mean": 0.9999195575714112
+        },
+        "IT": {
+          "entropy_mean": 0.8664089322090149,
+          "top5_coverage_mean": 0.09645093853274982,
+          "sparsity_mean": 0.992180081208547
+        },
+        "II": {
+          "entropy_mean": 4.906411250432332,
+          "top5_coverage_mean": 0.592857027053833,
+          "sparsity_mean": 0.9979595720767975
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.433363429705302,
+          "top5_coverage_mean": 0.10919963916142782,
+          "sparsity_mean": 0.9924607813358307
+        },
+        "TI": {
+          "entropy_mean": 4.525306177139282,
+          "top5_coverage_mean": 0.19825600783030192,
+          "sparsity_mean": 0.9998844504356384
+        },
+        "IT": {
+          "entropy_mean": 0.861138645807902,
+          "top5_coverage_mean": 0.11113579198718071,
+          "sparsity_mean": 0.9912152151266734
+        },
+        "II": {
+          "entropy_mean": 4.596623388926188,
+          "top5_coverage_mean": 0.6213226675987243,
+          "sparsity_mean": 0.9977273941040039
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.1206907391548158,
+          "top5_coverage_mean": 0.09113761881987253,
+          "sparsity_mean": 0.9926267683506012
+        },
+        "TI": {
+          "entropy_mean": 4.839177417755127,
+          "top5_coverage_mean": 0.23442358523607254,
+          "sparsity_mean": 0.9997249821821849
+        },
+        "IT": {
+          "entropy_mean": 1.032912168900172,
+          "top5_coverage_mean": 0.15998106400171916,
+          "sparsity_mean": 0.9875152866045634
+        },
+        "II": {
+          "entropy_mean": 4.111709173520406,
+          "top5_coverage_mean": 0.5962291598320008,
+          "sparsity_mean": 0.9977916618188222
+        }
+      }
+    },
+    "3": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.4460025707880657,
+          "top5_coverage_mean": 0.12844192509849867,
+          "sparsity_mean": 0.987323772907257
+        },
+        "TI": {
+          "entropy_mean": 3.9406128962834677,
+          "top5_coverage_mean": 0.23967796415090561,
+          "sparsity_mean": 0.9995472967624665
+        },
+        "IT": {
+          "entropy_mean": 1.3365113218625386,
+          "top5_coverage_mean": 0.22337506463130316,
+          "sparsity_mean": 0.9859690924485525
+        },
+        "II": {
+          "entropy_mean": 3.0793166875839235,
+          "top5_coverage_mean": 0.4925668627023697,
+          "sparsity_mean": 0.9984372695287068
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.5748756726582847,
+          "top5_coverage_mean": 0.13341131707032522,
+          "sparsity_mean": 0.9855833748976389
+        },
+        "TI": {
+          "entropy_mean": 3.6662986278533936,
+          "top5_coverage_mean": 0.2579249088962873,
+          "sparsity_mean": 0.9994276821613312
+        },
+        "IT": {
+          "entropy_mean": 1.2988325794537863,
+          "top5_coverage_mean": 0.23415456612904867,
+          "sparsity_mean": 0.9854574918746948
+        },
+        "II": {
+          "entropy_mean": 2.8850953737894693,
+          "top5_coverage_mean": 0.5116726905107498,
+          "sparsity_mean": 0.9983982980251312
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.7484928687413532,
+          "top5_coverage_mean": 0.13689570824305217,
+          "sparsity_mean": 0.9843287070592245
+        },
+        "TI": {
+          "entropy_mean": 3.399957513809204,
+          "top5_coverage_mean": 0.25182658433914185,
+          "sparsity_mean": 0.999398805697759
+        },
+        "IT": {
+          "entropy_mean": 1.2509735504786172,
+          "top5_coverage_mean": 0.24953753501176834,
+          "sparsity_mean": 0.9854698518911997
+        },
+        "II": {
+          "entropy_mean": 2.7239768584569295,
+          "top5_coverage_mean": 0.5213404417037963,
+          "sparsity_mean": 0.9984146296977997
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.84004807472229,
+          "top5_coverage_mean": 0.13771661470333735,
+          "sparsity_mean": 0.9840587774912516
+        },
+        "TI": {
+          "entropy_mean": 3.266653537750244,
+          "top5_coverage_mean": 0.24798331061999004,
+          "sparsity_mean": 0.9993907292683919
+        },
+        "IT": {
+          "entropy_mean": 1.2243654449780783,
+          "top5_coverage_mean": 0.25868475635846455,
+          "sparsity_mean": 0.9855974058310191
+        },
+        "II": {
+          "entropy_mean": 2.629020428657532,
+          "top5_coverage_mean": 0.5263973891735076,
+          "sparsity_mean": 0.9984189828236898
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.918219550450643,
+          "top5_coverage_mean": 0.13529102951288224,
+          "sparsity_mean": 0.9844428857167562
+        },
+        "TI": {
+          "entropy_mean": 3.1523214896519978,
+          "top5_coverage_mean": 0.24768184820810954,
+          "sparsity_mean": 0.9993634561697642
+        },
+        "IT": {
+          "entropy_mean": 1.1802825252215068,
+          "top5_coverage_mean": 0.26757843742767967,
+          "sparsity_mean": 0.9857983986536661
+        },
+        "II": {
+          "entropy_mean": 2.5275540272394816,
+          "top5_coverage_mean": 0.5357731262842814,
+          "sparsity_mean": 0.9984158674875895
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.915678064028422,
+          "top5_coverage_mean": 0.13096973225474356,
+          "sparsity_mean": 0.9846527139345805
+        },
+        "TI": {
+          "entropy_mean": 3.13854554494222,
+          "top5_coverage_mean": 0.2516483883062998,
+          "sparsity_mean": 0.9993165115515391
+        },
+        "IT": {
+          "entropy_mean": 1.1226242780685425,
+          "top5_coverage_mean": 0.2807125528653463,
+          "sparsity_mean": 0.9858462095260621
+        },
+        "II": {
+          "entropy_mean": 2.4519038597742715,
+          "top5_coverage_mean": 0.5417577803134919,
+          "sparsity_mean": 0.9984120448430379
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.609946298599243,
+          "top5_coverage_mean": 0.08698733846346537,
+          "sparsity_mean": 0.9903769691785177
+        },
+        "TI": {
+          "entropy_mean": 3.496181877454122,
+          "top5_coverage_mean": 0.317305455605189,
+          "sparsity_mean": 0.9989462673664093
+        },
+        "IT": {
+          "entropy_mean": 1.360532037417094,
+          "top5_coverage_mean": 0.331774956981341,
+          "sparsity_mean": 0.9826545973618825
+        },
+        "II": {
+          "entropy_mean": 1.8489271402359009,
+          "top5_coverage_mean": 0.515684841076533,
+          "sparsity_mean": 0.9986624677975973
+        }
+      }
+    },
+    "4": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.1772684812545777,
+          "top5_coverage_mean": 0.2030045708020528,
+          "sparsity_mean": 0.9849055290222168
+        },
+        "TI": {
+          "entropy_mean": 4.518176142374674,
+          "top5_coverage_mean": 0.15267393440008165,
+          "sparsity_mean": 0.9999819854895274
+        },
+        "IT": {
+          "entropy_mean": 1.1867498715718587,
+          "top5_coverage_mean": 0.09390925715366999,
+          "sparsity_mean": 0.9940104822317759
+        },
+        "II": {
+          "entropy_mean": 5.207911094029744,
+          "top5_coverage_mean": 0.4211244056622187,
+          "sparsity_mean": 0.9985921998818715
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.122842784722646,
+          "top5_coverage_mean": 0.18798421919345856,
+          "sparsity_mean": 0.9849818865458171
+        },
+        "TI": {
+          "entropy_mean": 4.443882528940836,
+          "top5_coverage_mean": 0.21506831993659337,
+          "sparsity_mean": 0.9998377601305644
+        },
+        "IT": {
+          "entropy_mean": 1.1838602582613627,
+          "top5_coverage_mean": 0.08731090550621351,
+          "sparsity_mean": 0.993762461344401
+        },
+        "II": {
+          "entropy_mean": 4.975551398595174,
+          "top5_coverage_mean": 0.47594172656536105,
+          "sparsity_mean": 0.9984661837418874
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.1524264494578045,
+          "top5_coverage_mean": 0.1790945366024971,
+          "sparsity_mean": 0.9847261150677998
+        },
+        "TI": {
+          "entropy_mean": 4.313779584566752,
+          "top5_coverage_mean": 0.25279908180236815,
+          "sparsity_mean": 0.99965793689092
+        },
+        "IT": {
+          "entropy_mean": 1.0015058000882466,
+          "top5_coverage_mean": 0.07656544869144757,
+          "sparsity_mean": 0.9944564759731293
+        },
+        "II": {
+          "entropy_mean": 4.839766915639242,
+          "top5_coverage_mean": 0.5490278164545696,
+          "sparsity_mean": 0.9981678366661072
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.1941232204437258,
+          "top5_coverage_mean": 0.17585682173569997,
+          "sparsity_mean": 0.9845215936501821
+        },
+        "TI": {
+          "entropy_mean": 4.208864172299703,
+          "top5_coverage_mean": 0.26803626666466396,
+          "sparsity_mean": 0.9995559732119242
+        },
+        "IT": {
+          "entropy_mean": 0.9079473793506623,
+          "top5_coverage_mean": 0.0719848836461703,
+          "sparsity_mean": 0.9947631398836771
+        },
+        "II": {
+          "entropy_mean": 4.7285454591115315,
+          "top5_coverage_mean": 0.5886161228020986,
+          "sparsity_mean": 0.9979665736357372
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.2672729174296062,
+          "top5_coverage_mean": 0.17510553697745004,
+          "sparsity_mean": 0.9839810291926067
+        },
+        "TI": {
+          "entropy_mean": 4.051981258392334,
+          "top5_coverage_mean": 0.27853616178035734,
+          "sparsity_mean": 0.9994600097338359
+        },
+        "IT": {
+          "entropy_mean": 0.8276766975720723,
+          "top5_coverage_mean": 0.07065535249809424,
+          "sparsity_mean": 0.9948216001192729
+        },
+        "II": {
+          "entropy_mean": 4.545555925369262,
+          "top5_coverage_mean": 0.6284803251425425,
+          "sparsity_mean": 0.9977683782577514
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.3055681149164835,
+          "top5_coverage_mean": 0.16917915493249894,
+          "sparsity_mean": 0.9839923997720083
+        },
+        "TI": {
+          "entropy_mean": 3.9890376567840575,
+          "top5_coverage_mean": 0.28300084521373114,
+          "sparsity_mean": 0.9994144141674042
+        },
+        "IT": {
+          "entropy_mean": 0.76104207833608,
+          "top5_coverage_mean": 0.07382246653238932,
+          "sparsity_mean": 0.994632347424825
+        },
+        "II": {
+          "entropy_mean": 4.364863284428915,
+          "top5_coverage_mean": 0.6590210040410359,
+          "sparsity_mean": 0.9976374228795369
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.561092416445414,
+          "top5_coverage_mean": 0.15088579853375753,
+          "sparsity_mean": 0.9845794061819713
+        },
+        "TI": {
+          "entropy_mean": 3.9683676799138388,
+          "top5_coverage_mean": 0.22312378485997517,
+          "sparsity_mean": 0.9997446238994598
+        },
+        "IT": {
+          "entropy_mean": 0.6897950688997905,
+          "top5_coverage_mean": 0.09558531468113264,
+          "sparsity_mean": 0.9927777926127116
+        },
+        "II": {
+          "entropy_mean": 3.8251461664835613,
+          "top5_coverage_mean": 0.7085906167825063,
+          "sparsity_mean": 0.9975693086783092
+        }
+      }
+    },
+    "5": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.7413650035858153,
+          "top5_coverage_mean": 0.1913428157567978,
+          "sparsity_mean": 0.9795056641101837
+        },
+        "TI": {
+          "entropy_mean": 3.8076619148254394,
+          "top5_coverage_mean": 0.14287656793991724,
+          "sparsity_mean": 0.9999445299307506
+        },
+        "IT": {
+          "entropy_mean": 1.4309451659520467,
+          "top5_coverage_mean": 0.12778920829296112,
+          "sparsity_mean": 0.9898260454336802
+        },
+        "II": {
+          "entropy_mean": 5.117571401596069,
+          "top5_coverage_mean": 0.3865249514579773,
+          "sparsity_mean": 0.9988577445348104
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.6951508283615113,
+          "top5_coverage_mean": 0.18102943350871403,
+          "sparsity_mean": 0.9799206356207529
+        },
+        "TI": {
+          "entropy_mean": 3.7900628248850503,
+          "top5_coverage_mean": 0.18409444838762284,
+          "sparsity_mean": 0.9998697022596995
+        },
+        "IT": {
+          "entropy_mean": 1.5508972485860189,
+          "top5_coverage_mean": 0.13426105578740438,
+          "sparsity_mean": 0.9890257696310679
+        },
+        "II": {
+          "entropy_mean": 4.828667577107748,
+          "top5_coverage_mean": 0.41980243623256686,
+          "sparsity_mean": 0.9988905350367229
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.7108766555786135,
+          "top5_coverage_mean": 0.17925827900568644,
+          "sparsity_mean": 0.9795307060082753
+        },
+        "TI": {
+          "entropy_mean": 3.6387550433476767,
+          "top5_coverage_mean": 0.2176358088850975,
+          "sparsity_mean": 0.9997287591298422
+        },
+        "IT": {
+          "entropy_mean": 1.4018784443537393,
+          "top5_coverage_mean": 0.12484509075681369,
+          "sparsity_mean": 0.9900191227595011
+        },
+        "II": {
+          "entropy_mean": 4.726776027679444,
+          "top5_coverage_mean": 0.48788327276706694,
+          "sparsity_mean": 0.9984645505746206
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.7221393982569375,
+          "top5_coverage_mean": 0.17738732198874155,
+          "sparsity_mean": 0.9795192698637645
+        },
+        "TI": {
+          "entropy_mean": 3.5587242444356284,
+          "top5_coverage_mean": 0.23392936885356902,
+          "sparsity_mean": 0.9996387978394826
+        },
+        "IT": {
+          "entropy_mean": 1.3375922600428263,
+          "top5_coverage_mean": 0.12400254979729652,
+          "sparsity_mean": 0.9903392692406973
+        },
+        "II": {
+          "entropy_mean": 4.61923181215922,
+          "top5_coverage_mean": 0.522265852491061,
+          "sparsity_mean": 0.9982093314329783
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.800804773966471,
+          "top5_coverage_mean": 0.17775361388921737,
+          "sparsity_mean": 0.978970589240392
+        },
+        "TI": {
+          "entropy_mean": 3.395579528808594,
+          "top5_coverage_mean": 0.24298157145579655,
+          "sparsity_mean": 0.9995578289031982
+        },
+        "IT": {
+          "entropy_mean": 1.2747731606165569,
+          "top5_coverage_mean": 0.12484703982869784,
+          "sparsity_mean": 0.9906385441621145
+        },
+        "II": {
+          "entropy_mean": 4.464873345692952,
+          "top5_coverage_mean": 0.5582698792219162,
+          "sparsity_mean": 0.9979362467924754
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.8784069697062176,
+          "top5_coverage_mean": 0.17865005483229954,
+          "sparsity_mean": 0.977948917945226
+        },
+        "TI": {
+          "entropy_mean": 3.25068355401357,
+          "top5_coverage_mean": 0.24508296648661296,
+          "sparsity_mean": 0.9995068748792012
+        },
+        "IT": {
+          "entropy_mean": 1.2054409980773926,
+          "top5_coverage_mean": 0.1248532734811306,
+          "sparsity_mean": 0.9909049411614735
+        },
+        "II": {
+          "entropy_mean": 4.349921321868896,
+          "top5_coverage_mean": 0.5886868606011073,
+          "sparsity_mean": 0.9977235039075215
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 3.4152387142181397,
+          "top5_coverage_mean": 0.16396041264136632,
+          "sparsity_mean": 0.9801778217156728
+        },
+        "TI": {
+          "entropy_mean": 2.8513933181762696,
+          "top5_coverage_mean": 0.16559632966915766,
+          "sparsity_mean": 0.9998225828011831
+        },
+        "IT": {
+          "entropy_mean": 0.9415814876556396,
+          "top5_coverage_mean": 0.1389335679511229,
+          "sparsity_mean": 0.9915816247463226
+        },
+        "II": {
+          "entropy_mean": 4.246622308095296,
+          "top5_coverage_mean": 0.6293206353982289,
+          "sparsity_mean": 0.9975223302841186
+        }
+      }
+    },
+    "6": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.058400106430054,
+          "top5_coverage_mean": 0.18923355638980865,
+          "sparsity_mean": 0.9830931742986043
+        },
+        "TI": {
+          "entropy_mean": 4.773291142781575,
+          "top5_coverage_mean": 0.1547848552465439,
+          "sparsity_mean": 0.9999695003032685
+        },
+        "IT": {
+          "entropy_mean": 1.241950007279714,
+          "top5_coverage_mean": 0.10908066406846047,
+          "sparsity_mean": 0.9925081710020701
+        },
+        "II": {
+          "entropy_mean": 5.589019727706909,
+          "top5_coverage_mean": 0.3205481847127279,
+          "sparsity_mean": 0.9995875497659047
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.037818737824758,
+          "top5_coverage_mean": 0.18302040497461955,
+          "sparsity_mean": 0.9832758108774821
+        },
+        "TI": {
+          "entropy_mean": 4.613775332768758,
+          "top5_coverage_mean": 0.22202869951725007,
+          "sparsity_mean": 0.9998059550921122
+        },
+        "IT": {
+          "entropy_mean": 1.1733516693115233,
+          "top5_coverage_mean": 0.0815933257341385,
+          "sparsity_mean": 0.9943901598453522
+        },
+        "II": {
+          "entropy_mean": 5.4464287757873535,
+          "top5_coverage_mean": 0.4110904137293498,
+          "sparsity_mean": 0.9993583222230276
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.0748895525932314,
+          "top5_coverage_mean": 0.1887503614028295,
+          "sparsity_mean": 0.9821520348389944
+        },
+        "TI": {
+          "entropy_mean": 4.334560108184815,
+          "top5_coverage_mean": 0.26988321940104165,
+          "sparsity_mean": 0.9995565573374431
+        },
+        "IT": {
+          "entropy_mean": 1.007274709145228,
+          "top5_coverage_mean": 0.07495320364832878,
+          "sparsity_mean": 0.9949032207330067
+        },
+        "II": {
+          "entropy_mean": 5.242583815256754,
+          "top5_coverage_mean": 0.5102173765500386,
+          "sparsity_mean": 0.99875408411026
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.078497632344564,
+          "top5_coverage_mean": 0.1906276414791743,
+          "sparsity_mean": 0.9817132472991943
+        },
+        "TI": {
+          "entropy_mean": 4.2111484924952185,
+          "top5_coverage_mean": 0.2938070903221766,
+          "sparsity_mean": 0.9994126121203105
+        },
+        "IT": {
+          "entropy_mean": 0.907369194428126,
+          "top5_coverage_mean": 0.07033768718441327,
+          "sparsity_mean": 0.9952734331289927
+        },
+        "II": {
+          "entropy_mean": 5.114242060979207,
+          "top5_coverage_mean": 0.5664130032062531,
+          "sparsity_mean": 0.9983040193716685
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.103580339749654,
+          "top5_coverage_mean": 0.19437362054983776,
+          "sparsity_mean": 0.9811903655529022
+        },
+        "TI": {
+          "entropy_mean": 4.064175049463908,
+          "top5_coverage_mean": 0.3115446279446284,
+          "sparsity_mean": 0.999289470911026
+        },
+        "IT": {
+          "entropy_mean": 0.8026607513427735,
+          "top5_coverage_mean": 0.06567142109076182,
+          "sparsity_mean": 0.9956258237361908
+        },
+        "II": {
+          "entropy_mean": 4.948462422688802,
+          "top5_coverage_mean": 0.6246913274129232,
+          "sparsity_mean": 0.9978247265021006
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.124837636947632,
+          "top5_coverage_mean": 0.19625333895285924,
+          "sparsity_mean": 0.9809332549571991
+        },
+        "TI": {
+          "entropy_mean": 3.98594339688619,
+          "top5_coverage_mean": 0.31696828703085583,
+          "sparsity_mean": 0.9992403209209442
+        },
+        "IT": {
+          "entropy_mean": 0.6973612487316132,
+          "top5_coverage_mean": 0.059153678144017854,
+          "sparsity_mean": 0.9960884094238281
+        },
+        "II": {
+          "entropy_mean": 4.831784423192342,
+          "top5_coverage_mean": 0.6727690259615581,
+          "sparsity_mean": 0.9974546710650126
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.895504283905029,
+          "top5_coverage_mean": 0.20467503319183986,
+          "sparsity_mean": 0.9771626353263855
+        },
+        "TI": {
+          "entropy_mean": 3.195140035947164,
+          "top5_coverage_mean": 0.22812209477027257,
+          "sparsity_mean": 0.9995881835619609
+        },
+        "IT": {
+          "entropy_mean": 0.6294666200876236,
+          "top5_coverage_mean": 0.06652799199024836,
+          "sparsity_mean": 0.9952079037825267
+        },
+        "II": {
+          "entropy_mean": 4.409846464792888,
+          "top5_coverage_mean": 0.7358029464880625,
+          "sparsity_mean": 0.9969640930493673
+        }
+      }
+    },
+    "7": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.769517183303833,
+          "top5_coverage_mean": 0.21560896784067154,
+          "sparsity_mean": 0.9805524369080861
+        },
+        "TI": {
+          "entropy_mean": 3.813802790641785,
+          "top5_coverage_mean": 0.11820889661709467,
+          "sparsity_mean": 0.9999729434649149
+        },
+        "IT": {
+          "entropy_mean": 1.1304423252741496,
+          "top5_coverage_mean": 0.11715378786126772,
+          "sparsity_mean": 0.991022257010142
+        },
+        "II": {
+          "entropy_mean": 5.032507038116455,
+          "top5_coverage_mean": 0.4256494055191676,
+          "sparsity_mean": 0.9990059316158295
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.7409174998601276,
+          "top5_coverage_mean": 0.2393627737959226,
+          "sparsity_mean": 0.9769699096679687
+        },
+        "TI": {
+          "entropy_mean": 3.520533005396525,
+          "top5_coverage_mean": 0.1638014242053032,
+          "sparsity_mean": 0.9998903135458629
+        },
+        "IT": {
+          "entropy_mean": 1.27701575756073,
+          "top5_coverage_mean": 0.13216986109813053,
+          "sparsity_mean": 0.9892882943153382
+        },
+        "II": {
+          "entropy_mean": 4.609901348749797,
+          "top5_coverage_mean": 0.46790618598461153,
+          "sparsity_mean": 0.9989187717437744
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.7753320058186848,
+          "top5_coverage_mean": 0.24953409284353256,
+          "sparsity_mean": 0.9755560318628947
+        },
+        "TI": {
+          "entropy_mean": 3.2637165625890097,
+          "top5_coverage_mean": 0.1968534419933955,
+          "sparsity_mean": 0.9997402389844259
+        },
+        "IT": {
+          "entropy_mean": 1.1298494736353557,
+          "top5_coverage_mean": 0.1236882949868838,
+          "sparsity_mean": 0.9898329814275105
+        },
+        "II": {
+          "entropy_mean": 4.47818988164266,
+          "top5_coverage_mean": 0.5408351977666219,
+          "sparsity_mean": 0.9984370966752371
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.7764425754547117,
+          "top5_coverage_mean": 0.25328595538934073,
+          "sparsity_mean": 0.9751012166341145
+        },
+        "TI": {
+          "entropy_mean": 3.153984292348226,
+          "top5_coverage_mean": 0.21603178729613623,
+          "sparsity_mean": 0.9996324996153514
+        },
+        "IT": {
+          "entropy_mean": 1.0418798208236695,
+          "top5_coverage_mean": 0.11579785024126371,
+          "sparsity_mean": 0.9903409779071808
+        },
+        "II": {
+          "entropy_mean": 4.405016295115153,
+          "top5_coverage_mean": 0.5817389190196991,
+          "sparsity_mean": 0.9981193582216898
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.790085212389628,
+          "top5_coverage_mean": 0.2562345718344053,
+          "sparsity_mean": 0.9746808707714081
+        },
+        "TI": {
+          "entropy_mean": 3.0297959168752033,
+          "top5_coverage_mean": 0.2345964695016543,
+          "sparsity_mean": 0.9994998574256897
+        },
+        "IT": {
+          "entropy_mean": 0.9438482205073039,
+          "top5_coverage_mean": 0.10698089202245077,
+          "sparsity_mean": 0.9910001814365387
+        },
+        "II": {
+          "entropy_mean": 4.3024103005727135,
+          "top5_coverage_mean": 0.6266423066457113,
+          "sparsity_mean": 0.9977875908215841
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.801420497894287,
+          "top5_coverage_mean": 0.25227779845396675,
+          "sparsity_mean": 0.9748922308286031
+        },
+        "TI": {
+          "entropy_mean": 2.974188494682312,
+          "top5_coverage_mean": 0.24659729599952698,
+          "sparsity_mean": 0.9994177023569742
+        },
+        "IT": {
+          "entropy_mean": 0.8512285093466441,
+          "top5_coverage_mean": 0.09611145406961441,
+          "sparsity_mean": 0.9918704549471538
+        },
+        "II": {
+          "entropy_mean": 4.231523458162943,
+          "top5_coverage_mean": 0.6657091995080312,
+          "sparsity_mean": 0.9975232660770417
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 3.0949783245722453,
+          "top5_coverage_mean": 0.22929020722707114,
+          "sparsity_mean": 0.9769213736057282
+        },
+        "TI": {
+          "entropy_mean": 2.72298526763916,
+          "top5_coverage_mean": 0.2315630907813708,
+          "sparsity_mean": 0.9994462033112844
+        },
+        "IT": {
+          "entropy_mean": 0.6701553881168365,
+          "top5_coverage_mean": 0.08175068845351537,
+          "sparsity_mean": 0.9939701080322265
+        },
+        "II": {
+          "entropy_mean": 4.0422072013219195,
+          "top5_coverage_mean": 0.7327581703662872,
+          "sparsity_mean": 0.9971018135547638
+        }
+      }
+    },
+    "8": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.7031806548436483,
+          "top5_coverage_mean": 0.24836200376351675,
+          "sparsity_mean": 0.9790113091468811
+        },
+        "TI": {
+          "entropy_mean": 3.6908326466878254,
+          "top5_coverage_mean": 0.12920197645823162,
+          "sparsity_mean": 0.999913607041041
+        },
+        "IT": {
+          "entropy_mean": 1.1490015427271525,
+          "top5_coverage_mean": 0.13474736859401068,
+          "sparsity_mean": 0.9911164204279582
+        },
+        "II": {
+          "entropy_mean": 5.099406067530314,
+          "top5_coverage_mean": 0.40442700584729513,
+          "sparsity_mean": 0.9987806836764018
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.5540245532989503,
+          "top5_coverage_mean": 0.2434833620985349,
+          "sparsity_mean": 0.9772081732749939
+        },
+        "TI": {
+          "entropy_mean": 3.6533424615859986,
+          "top5_coverage_mean": 0.18973791251579922,
+          "sparsity_mean": 0.999800310532252
+        },
+        "IT": {
+          "entropy_mean": 1.3110432585080465,
+          "top5_coverage_mean": 0.12580785527825356,
+          "sparsity_mean": 0.9904305398464203
+        },
+        "II": {
+          "entropy_mean": 4.840487718582153,
+          "top5_coverage_mean": 0.443572265903155,
+          "sparsity_mean": 0.9988091746966045
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.4947780529658,
+          "top5_coverage_mean": 0.2469756339987119,
+          "sparsity_mean": 0.9769064923127492
+        },
+        "TI": {
+          "entropy_mean": 3.4973432938257853,
+          "top5_coverage_mean": 0.23917530079682667,
+          "sparsity_mean": 0.9995804210503896
+        },
+        "IT": {
+          "entropy_mean": 1.1912816524505616,
+          "top5_coverage_mean": 0.12098484213153521,
+          "sparsity_mean": 0.9906582613786061
+        },
+        "II": {
+          "entropy_mean": 4.649399550755819,
+          "top5_coverage_mean": 0.5172815024852753,
+          "sparsity_mean": 0.9984004040559132
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.4846986452738444,
+          "top5_coverage_mean": 0.2515428413947423,
+          "sparsity_mean": 0.976588100194931
+        },
+        "TI": {
+          "entropy_mean": 3.373038323720296,
+          "top5_coverage_mean": 0.26366791129112244,
+          "sparsity_mean": 0.9994244654973348
+        },
+        "IT": {
+          "entropy_mean": 1.1284963627656301,
+          "top5_coverage_mean": 0.11869771455725034,
+          "sparsity_mean": 0.990780790646871
+        },
+        "II": {
+          "entropy_mean": 4.502494160334269,
+          "top5_coverage_mean": 0.5594246804714202,
+          "sparsity_mean": 0.998083084821701
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.4778175433476766,
+          "top5_coverage_mean": 0.2544095034400622,
+          "sparsity_mean": 0.976327141125997
+        },
+        "TI": {
+          "entropy_mean": 3.2406379699707033,
+          "top5_coverage_mean": 0.2886537472407023,
+          "sparsity_mean": 0.9992416083812714
+        },
+        "IT": {
+          "entropy_mean": 1.0524066547552744,
+          "top5_coverage_mean": 0.11537462820609411,
+          "sparsity_mean": 0.9911645710468292
+        },
+        "II": {
+          "entropy_mean": 4.329945866266886,
+          "top5_coverage_mean": 0.604115508000056,
+          "sparsity_mean": 0.9977552910645803
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.4792606512705486,
+          "top5_coverage_mean": 0.256796669960022,
+          "sparsity_mean": 0.9763229489326477
+        },
+        "TI": {
+          "entropy_mean": 3.1326151688893638,
+          "top5_coverage_mean": 0.3038330594698588,
+          "sparsity_mean": 0.999118548631668
+        },
+        "IT": {
+          "entropy_mean": 0.9850218454996745,
+          "top5_coverage_mean": 0.11040392840902011,
+          "sparsity_mean": 0.9917556862036387
+        },
+        "II": {
+          "entropy_mean": 4.186236913998922,
+          "top5_coverage_mean": 0.6405595898628235,
+          "sparsity_mean": 0.997521311044693
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.8635405858357745,
+          "top5_coverage_mean": 0.2569144343336423,
+          "sparsity_mean": 0.9752166728178661
+        },
+        "TI": {
+          "entropy_mean": 2.662980000178019,
+          "top5_coverage_mean": 0.2706550026933352,
+          "sparsity_mean": 0.9991962055365244
+        },
+        "IT": {
+          "entropy_mean": 0.9783357938130697,
+          "top5_coverage_mean": 0.12244521006941796,
+          "sparsity_mean": 0.9923588534196218
+        },
+        "II": {
+          "entropy_mean": 3.7766326824824015,
+          "top5_coverage_mean": 0.6736569166183471,
+          "sparsity_mean": 0.9974056561787923
+        }
+      }
+    },
+    "9": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.3021772782007854,
+          "top5_coverage_mean": 0.209658187131087,
+          "sparsity_mean": 0.9833816925684611
+        },
+        "TI": {
+          "entropy_mean": 4.482322756449381,
+          "top5_coverage_mean": 0.13887679825226465,
+          "sparsity_mean": 0.9999537587165832
+        },
+        "IT": {
+          "entropy_mean": 1.2483007033665976,
+          "top5_coverage_mean": 0.15077606389919918,
+          "sparsity_mean": 0.9888990581035614
+        },
+        "II": {
+          "entropy_mean": 5.605111328760783,
+          "top5_coverage_mean": 0.29492509563763936,
+          "sparsity_mean": 0.9994267781575521
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 1.8072780887285869,
+          "top5_coverage_mean": 0.20737396826346716,
+          "sparsity_mean": 0.9836602290471395
+        },
+        "TI": {
+          "entropy_mean": 4.731606737772624,
+          "top5_coverage_mean": 0.2323714365561803,
+          "sparsity_mean": 0.9998493095239004
+        },
+        "IT": {
+          "entropy_mean": 1.1113362809022267,
+          "top5_coverage_mean": 0.15821611682573955,
+          "sparsity_mean": 0.9889524559179942
+        },
+        "II": {
+          "entropy_mean": 5.185027805964152,
+          "top5_coverage_mean": 0.4372222473224004,
+          "sparsity_mean": 0.9989675184090933
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 1.8009090065956115,
+          "top5_coverage_mean": 0.22026491661866507,
+          "sparsity_mean": 0.9828500668207805
+        },
+        "TI": {
+          "entropy_mean": 4.45401185353597,
+          "top5_coverage_mean": 0.28516003986199695,
+          "sparsity_mean": 0.999631001551946
+        },
+        "IT": {
+          "entropy_mean": 0.9986684223016103,
+          "top5_coverage_mean": 0.15158547063668568,
+          "sparsity_mean": 0.9896048665046692
+        },
+        "II": {
+          "entropy_mean": 5.008314943313598,
+          "top5_coverage_mean": 0.50957277516524,
+          "sparsity_mean": 0.9984218895435333
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 1.8256099502245584,
+          "top5_coverage_mean": 0.22742043038209278,
+          "sparsity_mean": 0.98226651151975
+        },
+        "TI": {
+          "entropy_mean": 4.267749818166097,
+          "top5_coverage_mean": 0.31265849073727925,
+          "sparsity_mean": 0.9994613985220592
+        },
+        "IT": {
+          "entropy_mean": 0.9311560531457265,
+          "top5_coverage_mean": 0.14479873180389405,
+          "sparsity_mean": 0.9901296397050222
+        },
+        "II": {
+          "entropy_mean": 4.90445647239685,
+          "top5_coverage_mean": 0.5505725334088007,
+          "sparsity_mean": 0.9980885306994121
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 1.8818007071812948,
+          "top5_coverage_mean": 0.23836686859528225,
+          "sparsity_mean": 0.9815041263898213
+        },
+        "TI": {
+          "entropy_mean": 4.0470941464106245,
+          "top5_coverage_mean": 0.33297794361909233,
+          "sparsity_mean": 0.9993074337641398
+        },
+        "IT": {
+          "entropy_mean": 0.8608932296435038,
+          "top5_coverage_mean": 0.137577935308218,
+          "sparsity_mean": 0.9907984554767608
+        },
+        "II": {
+          "entropy_mean": 4.784190003077189,
+          "top5_coverage_mean": 0.5919320086638132,
+          "sparsity_mean": 0.9977755586306254
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 1.9558782537778219,
+          "top5_coverage_mean": 0.24889069149891535,
+          "sparsity_mean": 0.980869597196579
+        },
+        "TI": {
+          "entropy_mean": 3.861551364262899,
+          "top5_coverage_mean": 0.33891502718130745,
+          "sparsity_mean": 0.9992267747720083
+        },
+        "IT": {
+          "entropy_mean": 0.8025905072689057,
+          "top5_coverage_mean": 0.12823930556575458,
+          "sparsity_mean": 0.9915337463219961
+        },
+        "II": {
+          "entropy_mean": 4.704927110671997,
+          "top5_coverage_mean": 0.6256541093190511,
+          "sparsity_mean": 0.9975515524546306
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.5143747170766195,
+          "top5_coverage_mean": 0.283198869228363,
+          "sparsity_mean": 0.9776444872220357
+        },
+        "TI": {
+          "entropy_mean": 3.214312958717346,
+          "top5_coverage_mean": 0.26401645690202713,
+          "sparsity_mean": 0.9994795262813568
+        },
+        "IT": {
+          "entropy_mean": 0.6311482648054759,
+          "top5_coverage_mean": 0.09517000963290533,
+          "sparsity_mean": 0.9942825376987457
+        },
+        "II": {
+          "entropy_mean": 4.76640256245931,
+          "top5_coverage_mean": 0.685806256532669,
+          "sparsity_mean": 0.9972373267014821
+        }
+      }
+    },
+    "10": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.9749985218048094,
+          "top5_coverage_mean": 0.29348743955294293,
+          "sparsity_mean": 0.9769299129645029
+        },
+        "TI": {
+          "entropy_mean": 3.135297258694967,
+          "top5_coverage_mean": 0.12106079657872518,
+          "sparsity_mean": 0.9999233106772105
+        },
+        "IT": {
+          "entropy_mean": 1.4585900863011678,
+          "top5_coverage_mean": 0.21575230211019517,
+          "sparsity_mean": 0.986103888352712
+        },
+        "II": {
+          "entropy_mean": 4.326253938674927,
+          "top5_coverage_mean": 0.4112068623304367,
+          "sparsity_mean": 0.9984538376331329
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.521327002843221,
+          "top5_coverage_mean": 0.2638211205601692,
+          "sparsity_mean": 0.9790532966454824
+        },
+        "TI": {
+          "entropy_mean": 3.580021794637044,
+          "top5_coverage_mean": 0.2092467854420344,
+          "sparsity_mean": 0.9997750957806905
+        },
+        "IT": {
+          "entropy_mean": 1.4709561467170715,
+          "top5_coverage_mean": 0.20969809691111246,
+          "sparsity_mean": 0.9849836508433024
+        },
+        "II": {
+          "entropy_mean": 4.153400492668152,
+          "top5_coverage_mean": 0.4747695336739222,
+          "sparsity_mean": 0.9983141640822093
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.482433064778646,
+          "top5_coverage_mean": 0.2750755300124486,
+          "sparsity_mean": 0.9780996859073638
+        },
+        "TI": {
+          "entropy_mean": 3.3521188815434773,
+          "top5_coverage_mean": 0.25807631214459736,
+          "sparsity_mean": 0.9995176593462626
+        },
+        "IT": {
+          "entropy_mean": 1.3758944630622865,
+          "top5_coverage_mean": 0.21671374489863712,
+          "sparsity_mean": 0.9850607713063558
+        },
+        "II": {
+          "entropy_mean": 3.9647332429885864,
+          "top5_coverage_mean": 0.5204806139071783,
+          "sparsity_mean": 0.9980483492215474
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.461042062441508,
+          "top5_coverage_mean": 0.28220831950505576,
+          "sparsity_mean": 0.9775073270003001
+        },
+        "TI": {
+          "entropy_mean": 3.2178290685017905,
+          "top5_coverage_mean": 0.2832585240403811,
+          "sparsity_mean": 0.9993357717990875
+        },
+        "IT": {
+          "entropy_mean": 1.315631663799286,
+          "top5_coverage_mean": 0.2215134729941686,
+          "sparsity_mean": 0.9853336652119954
+        },
+        "II": {
+          "entropy_mean": 3.840279754002889,
+          "top5_coverage_mean": 0.5454117824633916,
+          "sparsity_mean": 0.9978692670663197
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.4589245239893596,
+          "top5_coverage_mean": 0.28998195032278695,
+          "sparsity_mean": 0.9768980224927266
+        },
+        "TI": {
+          "entropy_mean": 3.059319750467936,
+          "top5_coverage_mean": 0.30317446688810984,
+          "sparsity_mean": 0.9991583744684855
+        },
+        "IT": {
+          "entropy_mean": 1.2382935484250386,
+          "top5_coverage_mean": 0.2212108130256335,
+          "sparsity_mean": 0.9859381198883057
+        },
+        "II": {
+          "entropy_mean": 3.7291255394617715,
+          "top5_coverage_mean": 0.5742984175682068,
+          "sparsity_mean": 0.9976804733276368
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.4544045130411782,
+          "top5_coverage_mean": 0.29752130011717476,
+          "sparsity_mean": 0.9764188448588054
+        },
+        "TI": {
+          "entropy_mean": 2.938780665397644,
+          "top5_coverage_mean": 0.3139104098081589,
+          "sparsity_mean": 0.9990507205327351
+        },
+        "IT": {
+          "entropy_mean": 1.1440190215905508,
+          "top5_coverage_mean": 0.20980010877052943,
+          "sparsity_mean": 0.987057505051295
+        },
+        "II": {
+          "entropy_mean": 3.69335560798645,
+          "top5_coverage_mean": 0.6079694946606954,
+          "sparsity_mean": 0.9974852462609609
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.7580273469289143,
+          "top5_coverage_mean": 0.3326732784509659,
+          "sparsity_mean": 0.9734013855457306
+        },
+        "TI": {
+          "entropy_mean": 2.4422311623891195,
+          "top5_coverage_mean": 0.2560216536124547,
+          "sparsity_mean": 0.9992528617382049
+        },
+        "IT": {
+          "entropy_mean": 1.1526922265688577,
+          "top5_coverage_mean": 0.21662585387627284,
+          "sparsity_mean": 0.9882839699586232
+        },
+        "II": {
+          "entropy_mean": 3.5686898231506348,
+          "top5_coverage_mean": 0.6081336458524068,
+          "sparsity_mean": 0.9975266218185425
+        }
+      }
+    },
+    "11": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.8716787735621137,
+          "top5_coverage_mean": 0.2964924544095993,
+          "sparsity_mean": 0.9771334528923035
+        },
+        "TI": {
+          "entropy_mean": 3.3688300053278604,
+          "top5_coverage_mean": 0.10938564911484719,
+          "sparsity_mean": 0.9999567111333211
+        },
+        "IT": {
+          "entropy_mean": 1.727069632212321,
+          "top5_coverage_mean": 0.3143986572821935,
+          "sparsity_mean": 0.981993168592453
+        },
+        "II": {
+          "entropy_mean": 4.010327998797099,
+          "top5_coverage_mean": 0.2503495067358017,
+          "sparsity_mean": 0.9997384170691173
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.5145973364512124,
+          "top5_coverage_mean": 0.30509411096572875,
+          "sparsity_mean": 0.97436896165212
+        },
+        "TI": {
+          "entropy_mean": 3.3676097710927326,
+          "top5_coverage_mean": 0.2049986367424329,
+          "sparsity_mean": 0.999825777610143
+        },
+        "IT": {
+          "entropy_mean": 1.7026997685432435,
+          "top5_coverage_mean": 0.3275964170694351,
+          "sparsity_mean": 0.9812167545159658
+        },
+        "II": {
+          "entropy_mean": 3.4976007541020713,
+          "top5_coverage_mean": 0.3610124031702677,
+          "sparsity_mean": 0.9993469417095184
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.362555734316508,
+          "top5_coverage_mean": 0.31356807351112365,
+          "sparsity_mean": 0.9740451037883758
+        },
+        "TI": {
+          "entropy_mean": 3.2745421250661213,
+          "top5_coverage_mean": 0.26304301967223487,
+          "sparsity_mean": 0.9995757361253103
+        },
+        "IT": {
+          "entropy_mean": 1.5089630842208863,
+          "top5_coverage_mean": 0.3219848612944285,
+          "sparsity_mean": 0.9828127324581146
+        },
+        "II": {
+          "entropy_mean": 3.4641313473383586,
+          "top5_coverage_mean": 0.423351526260376,
+          "sparsity_mean": 0.9989303131898244
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.2923396190007526,
+          "top5_coverage_mean": 0.3183175136645635,
+          "sparsity_mean": 0.9741142292817434
+        },
+        "TI": {
+          "entropy_mean": 3.2105647722880044,
+          "top5_coverage_mean": 0.29183436135450996,
+          "sparsity_mean": 0.9993811090787251
+        },
+        "IT": {
+          "entropy_mean": 1.405365800857544,
+          "top5_coverage_mean": 0.3134613295396169,
+          "sparsity_mean": 0.9837963660558064
+        },
+        "II": {
+          "entropy_mean": 3.4589024702707927,
+          "top5_coverage_mean": 0.45712011158466337,
+          "sparsity_mean": 0.9986741264661153
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.240111029148102,
+          "top5_coverage_mean": 0.32488569418589275,
+          "sparsity_mean": 0.9742706716060638
+        },
+        "TI": {
+          "entropy_mean": 3.1321272691090902,
+          "top5_coverage_mean": 0.3135689581433932,
+          "sparsity_mean": 0.999201375246048
+        },
+        "IT": {
+          "entropy_mean": 1.2912617603937784,
+          "top5_coverage_mean": 0.2960388938585917,
+          "sparsity_mean": 0.985028459628423
+        },
+        "II": {
+          "entropy_mean": 3.4876989126205444,
+          "top5_coverage_mean": 0.496645787358284,
+          "sparsity_mean": 0.9984212398529053
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.1966938853263853,
+          "top5_coverage_mean": 0.3337772101163864,
+          "sparsity_mean": 0.9744053204854329
+        },
+        "TI": {
+          "entropy_mean": 3.066460704803467,
+          "top5_coverage_mean": 0.32549219330151874,
+          "sparsity_mean": 0.9990960816542308
+        },
+        "IT": {
+          "entropy_mean": 1.1756295641263326,
+          "top5_coverage_mean": 0.2706894278526306,
+          "sparsity_mean": 0.9866207043329874
+        },
+        "II": {
+          "entropy_mean": 3.563136331240336,
+          "top5_coverage_mean": 0.5389112601677577,
+          "sparsity_mean": 0.9981781641642252
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.4171069939931233,
+          "top5_coverage_mean": 0.3849940856297811,
+          "sparsity_mean": 0.9716993411382039
+        },
+        "TI": {
+          "entropy_mean": 2.6395432710647584,
+          "top5_coverage_mean": 0.2717308496435483,
+          "sparsity_mean": 0.9993092497189839
+        },
+        "IT": {
+          "entropy_mean": 0.9002861420313517,
+          "top5_coverage_mean": 0.19989948918422062,
+          "sparsity_mean": 0.990848974386851
+        },
+        "II": {
+          "entropy_mean": 3.940607460339864,
+          "top5_coverage_mean": 0.6234583735466004,
+          "sparsity_mean": 0.9977255682150523
+        }
+      }
+    },
+    "12": {
+      "0": {
+        "TT": {
+          "entropy_mean": 3.4886658350626627,
+          "top5_coverage_mean": 0.41904702186584475,
+          "sparsity_mean": 0.9675415913263957
+        },
+        "TI": {
+          "entropy_mean": 1.7327731132507325,
+          "top5_coverage_mean": 0.0812947171429793,
+          "sparsity_mean": 0.9998973806699117
+        },
+        "IT": {
+          "entropy_mean": 1.2934122482935588,
+          "top5_coverage_mean": 0.27244867086410524,
+          "sparsity_mean": 0.9865381518999735
+        },
+        "II": {
+          "entropy_mean": 3.365404971440633,
+          "top5_coverage_mean": 0.4722730239232381,
+          "sparsity_mean": 0.998362668355306
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 3.2974416971206666,
+          "top5_coverage_mean": 0.3957123895486196,
+          "sparsity_mean": 0.962832236289978
+        },
+        "TI": {
+          "entropy_mean": 1.9235790530840555,
+          "top5_coverage_mean": 0.12392846494913101,
+          "sparsity_mean": 0.9998224914073944
+        },
+        "IT": {
+          "entropy_mean": 1.3747437040011088,
+          "top5_coverage_mean": 0.28662972648938495,
+          "sparsity_mean": 0.9834391395250957
+        },
+        "II": {
+          "entropy_mean": 3.227239720026652,
+          "top5_coverage_mean": 0.5074357082446416,
+          "sparsity_mean": 0.9981717387835185
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 3.2789294878641764,
+          "top5_coverage_mean": 0.4113587180773417,
+          "sparsity_mean": 0.961561671892802
+        },
+        "TI": {
+          "entropy_mean": 1.7393860260645548,
+          "top5_coverage_mean": 0.1462011029322942,
+          "sparsity_mean": 0.9996698498725891
+        },
+        "IT": {
+          "entropy_mean": 1.313585599263509,
+          "top5_coverage_mean": 0.2976405213276545,
+          "sparsity_mean": 0.9827672719955445
+        },
+        "II": {
+          "entropy_mean": 3.0263091802597044,
+          "top5_coverage_mean": 0.5334897845983505,
+          "sparsity_mean": 0.9980135222276052
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 3.2651084820429483,
+          "top5_coverage_mean": 0.4201262633005778,
+          "sparsity_mean": 0.9611044347286224
+        },
+        "TI": {
+          "entropy_mean": 1.6419547200202942,
+          "top5_coverage_mean": 0.15621678680181503,
+          "sparsity_mean": 0.9995865523815155
+        },
+        "IT": {
+          "entropy_mean": 1.2674286405245463,
+          "top5_coverage_mean": 0.3019960810740789,
+          "sparsity_mean": 0.9827821771303813
+        },
+        "II": {
+          "entropy_mean": 2.928671948115031,
+          "top5_coverage_mean": 0.5466337223847707,
+          "sparsity_mean": 0.997949500878652
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 3.2651936769485475,
+          "top5_coverage_mean": 0.42669703662395475,
+          "sparsity_mean": 0.9608079095681509
+        },
+        "TI": {
+          "entropy_mean": 1.5522614479064942,
+          "top5_coverage_mean": 0.16264243324597677,
+          "sparsity_mean": 0.9995297193527222
+        },
+        "IT": {
+          "entropy_mean": 1.2128671288490296,
+          "top5_coverage_mean": 0.3070814510186513,
+          "sparsity_mean": 0.9832498848438262
+        },
+        "II": {
+          "entropy_mean": 2.842618942260742,
+          "top5_coverage_mean": 0.5561095019181569,
+          "sparsity_mean": 0.9979340732097626
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 3.2514854272206626,
+          "top5_coverage_mean": 0.4307819098234177,
+          "sparsity_mean": 0.9608087420463562
+        },
+        "TI": {
+          "entropy_mean": 1.5036686340967813,
+          "top5_coverage_mean": 0.16752953579028448,
+          "sparsity_mean": 0.9994935492674509
+        },
+        "IT": {
+          "entropy_mean": 1.1422315498193105,
+          "top5_coverage_mean": 0.2976572662591934,
+          "sparsity_mean": 0.9841582993666331
+        },
+        "II": {
+          "entropy_mean": 2.850374221801758,
+          "top5_coverage_mean": 0.5748271524906159,
+          "sparsity_mean": 0.9978718956311544
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 3.1382138252258303,
+          "top5_coverage_mean": 0.4308836986621221,
+          "sparsity_mean": 0.9639635344346364
+        },
+        "TI": {
+          "entropy_mean": 1.5746317068735758,
+          "top5_coverage_mean": 0.1771881769100825,
+          "sparsity_mean": 0.9994671960671743
+        },
+        "IT": {
+          "entropy_mean": 1.0486845016479491,
+          "top5_coverage_mean": 0.29592518458763756,
+          "sparsity_mean": 0.9864443302154541
+        },
+        "II": {
+          "entropy_mean": 2.8749385992685954,
+          "top5_coverage_mean": 0.5826198240121205,
+          "sparsity_mean": 0.9978970209757487
+        }
+      }
+    },
+    "13": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.52703652381897,
+          "top5_coverage_mean": 0.26760805447896324,
+          "sparsity_mean": 0.9797975281874339
+        },
+        "TI": {
+          "entropy_mean": 3.9271878639856976,
+          "top5_coverage_mean": 0.12189225306113562,
+          "sparsity_mean": 0.999948795636495
+        },
+        "IT": {
+          "entropy_mean": 1.5157939871152242,
+          "top5_coverage_mean": 0.2062022402882576,
+          "sparsity_mean": 0.986894545952479
+        },
+        "II": {
+          "entropy_mean": 4.983472792307536,
+          "top5_coverage_mean": 0.29000117977460227,
+          "sparsity_mean": 0.9995785713195801
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.5397273778915403,
+          "top5_coverage_mean": 0.3454798638820648,
+          "sparsity_mean": 0.9701677938302358
+        },
+        "TI": {
+          "entropy_mean": 3.0533040682474772,
+          "top5_coverage_mean": 0.20107932140429816,
+          "sparsity_mean": 0.9997173090775807
+        },
+        "IT": {
+          "entropy_mean": 1.6787633220354716,
+          "top5_coverage_mean": 0.2541125332315763,
+          "sparsity_mean": 0.9809265693028768
+        },
+        "II": {
+          "entropy_mean": 4.021596932411194,
+          "top5_coverage_mean": 0.41681752701600394,
+          "sparsity_mean": 0.9988215506076813
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.5126718362172444,
+          "top5_coverage_mean": 0.3661678671836853,
+          "sparsity_mean": 0.9685564657052358
+        },
+        "TI": {
+          "entropy_mean": 2.7588602463404337,
+          "top5_coverage_mean": 0.2428412601351738,
+          "sparsity_mean": 0.9993995467821757
+        },
+        "IT": {
+          "entropy_mean": 1.6308219154675803,
+          "top5_coverage_mean": 0.26353082855542503,
+          "sparsity_mean": 0.9790528794129689
+        },
+        "II": {
+          "entropy_mean": 3.7648104588190714,
+          "top5_coverage_mean": 0.4628556330998739,
+          "sparsity_mean": 0.9984121600786845
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.4877925713857016,
+          "top5_coverage_mean": 0.3770342022180557,
+          "sparsity_mean": 0.9681701580683391
+        },
+        "TI": {
+          "entropy_mean": 2.620506985982259,
+          "top5_coverage_mean": 0.26145012030998865,
+          "sparsity_mean": 0.9992242018381755
+        },
+        "IT": {
+          "entropy_mean": 1.5738498051961263,
+          "top5_coverage_mean": 0.266325451930364,
+          "sparsity_mean": 0.9788506885369619
+        },
+        "II": {
+          "entropy_mean": 3.6686429500579836,
+          "top5_coverage_mean": 0.4867270588874817,
+          "sparsity_mean": 0.9982231835524241
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.461552921930949,
+          "top5_coverage_mean": 0.38358918130397796,
+          "sparsity_mean": 0.9681857784589132
+        },
+        "TI": {
+          "entropy_mean": 2.517469565073649,
+          "top5_coverage_mean": 0.2771480431159337,
+          "sparsity_mean": 0.9990861038366954
+        },
+        "IT": {
+          "entropy_mean": 1.4819536725680034,
+          "top5_coverage_mean": 0.25751064717769623,
+          "sparsity_mean": 0.9797751863797506
+        },
+        "II": {
+          "entropy_mean": 3.662389373779297,
+          "top5_coverage_mean": 0.5156081477801006,
+          "sparsity_mean": 0.998047657807668
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.42697233359019,
+          "top5_coverage_mean": 0.38755595982074736,
+          "sparsity_mean": 0.9684253374735514
+        },
+        "TI": {
+          "entropy_mean": 2.4717896699905397,
+          "top5_coverage_mean": 0.2878244429826736,
+          "sparsity_mean": 0.9990065217018127
+        },
+        "IT": {
+          "entropy_mean": 1.3934951702753702,
+          "top5_coverage_mean": 0.24689816882212956,
+          "sparsity_mean": 0.9811289310455322
+        },
+        "II": {
+          "entropy_mean": 3.6810152530670166,
+          "top5_coverage_mean": 0.5418601383765539,
+          "sparsity_mean": 0.9978895525137583
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.477967047691345,
+          "top5_coverage_mean": 0.42050950427850087,
+          "sparsity_mean": 0.9673700869083405
+        },
+        "TI": {
+          "entropy_mean": 2.3695564826329547,
+          "top5_coverage_mean": 0.2558987701932589,
+          "sparsity_mean": 0.999186251560847
+        },
+        "IT": {
+          "entropy_mean": 1.185098930199941,
+          "top5_coverage_mean": 0.22600921789805095,
+          "sparsity_mean": 0.9857156197230021
+        },
+        "II": {
+          "entropy_mean": 3.8285931587219237,
+          "top5_coverage_mean": 0.5782195667425791,
+          "sparsity_mean": 0.997776335477829
+        }
+      }
+    },
+    "14": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.3392346223195393,
+          "top5_coverage_mean": 0.22100297560294468,
+          "sparsity_mean": 0.9811251123746236
+        },
+        "TI": {
+          "entropy_mean": 4.370294030507406,
+          "top5_coverage_mean": 0.13260899508992832,
+          "sparsity_mean": 0.9999507347742717
+        },
+        "IT": {
+          "entropy_mean": 1.9564979553222657,
+          "top5_coverage_mean": 0.18286241392294567,
+          "sparsity_mean": 0.9872079908847808
+        },
+        "II": {
+          "entropy_mean": 4.682028611501058,
+          "top5_coverage_mean": 0.21722569465637206,
+          "sparsity_mean": 0.9998891631762187
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 1.7888617555300395,
+          "top5_coverage_mean": 0.27273836185534794,
+          "sparsity_mean": 0.9799935281276703
+        },
+        "TI": {
+          "entropy_mean": 4.2156462589899695,
+          "top5_coverage_mean": 0.2717238942782084,
+          "sparsity_mean": 0.9996529936790466
+        },
+        "IT": {
+          "entropy_mean": 1.650808835029602,
+          "top5_coverage_mean": 0.251920984685421,
+          "sparsity_mean": 0.9811714311440786
+        },
+        "II": {
+          "entropy_mean": 4.030851721763611,
+          "top5_coverage_mean": 0.3768502632776896,
+          "sparsity_mean": 0.9993245979150136
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 1.6033369501431782,
+          "top5_coverage_mean": 0.2720823124051094,
+          "sparsity_mean": 0.9807607551415761
+        },
+        "TI": {
+          "entropy_mean": 4.0786911408106485,
+          "top5_coverage_mean": 0.3609960973262787,
+          "sparsity_mean": 0.999157840013504
+        },
+        "IT": {
+          "entropy_mean": 1.423468546072642,
+          "top5_coverage_mean": 0.24561166167259216,
+          "sparsity_mean": 0.9815918525060018
+        },
+        "II": {
+          "entropy_mean": 3.956726908683777,
+          "top5_coverage_mean": 0.45659027298291527,
+          "sparsity_mean": 0.9987855851650238
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 1.5162376244862874,
+          "top5_coverage_mean": 0.27096661974986397,
+          "sparsity_mean": 0.9813303391138712
+        },
+        "TI": {
+          "entropy_mean": 3.9875115394592284,
+          "top5_coverage_mean": 0.40415603617827095,
+          "sparsity_mean": 0.998833696047465
+        },
+        "IT": {
+          "entropy_mean": 1.317405104637146,
+          "top5_coverage_mean": 0.23810206552346547,
+          "sparsity_mean": 0.9820703665415446
+        },
+        "II": {
+          "entropy_mean": 3.9186614751815796,
+          "top5_coverage_mean": 0.4954511711994807,
+          "sparsity_mean": 0.9984925270080567
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 1.438041623433431,
+          "top5_coverage_mean": 0.26859082877635954,
+          "sparsity_mean": 0.9820633014043172
+        },
+        "TI": {
+          "entropy_mean": 3.893214138348897,
+          "top5_coverage_mean": 0.44354672531286876,
+          "sparsity_mean": 0.9985155522823334
+        },
+        "IT": {
+          "entropy_mean": 1.198341586192449,
+          "top5_coverage_mean": 0.2245299220085144,
+          "sparsity_mean": 0.9832097272078196
+        },
+        "II": {
+          "entropy_mean": 3.906670912106832,
+          "top5_coverage_mean": 0.5367321381966274,
+          "sparsity_mean": 0.9981866836547851
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 1.3676330963770549,
+          "top5_coverage_mean": 0.2657838374376297,
+          "sparsity_mean": 0.9828715125719706
+        },
+        "TI": {
+          "entropy_mean": 3.8369816382726034,
+          "top5_coverage_mean": 0.4720361481110255,
+          "sparsity_mean": 0.9982944806416829
+        },
+        "IT": {
+          "entropy_mean": 1.0729551593462625,
+          "top5_coverage_mean": 0.20388009796539944,
+          "sparsity_mean": 0.9849917511145274
+        },
+        "II": {
+          "entropy_mean": 3.9306649446487425,
+          "top5_coverage_mean": 0.5798347661892573,
+          "sparsity_mean": 0.9978771368662517
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 1.365738574663798,
+          "top5_coverage_mean": 0.2748250310619672,
+          "sparsity_mean": 0.9827839612960816
+        },
+        "TI": {
+          "entropy_mean": 3.805356478691101,
+          "top5_coverage_mean": 0.4679980009794235,
+          "sparsity_mean": 0.9982958336671194
+        },
+        "IT": {
+          "entropy_mean": 0.7725292881329854,
+          "top5_coverage_mean": 0.1387642279267311,
+          "sparsity_mean": 0.9906609773635864
+        },
+        "II": {
+          "entropy_mean": 4.143890277544657,
+          "top5_coverage_mean": 0.6739546835422516,
+          "sparsity_mean": 0.9972881038983663
+        }
+      }
+    },
+    "15": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.6304074048995973,
+          "top5_coverage_mean": 0.2828606347242991,
+          "sparsity_mean": 0.9755910456180572
+        },
+        "TI": {
+          "entropy_mean": 3.6428863763809205,
+          "top5_coverage_mean": 0.1343957896033923,
+          "sparsity_mean": 0.9999175667762756
+        },
+        "IT": {
+          "entropy_mean": 1.2511407732963562,
+          "top5_coverage_mean": 0.15239659299453098,
+          "sparsity_mean": 0.9898187061150868
+        },
+        "II": {
+          "entropy_mean": 5.446219698588053,
+          "top5_coverage_mean": 0.34113385876019797,
+          "sparsity_mean": 0.9994973778724671
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.7712605714797975,
+          "top5_coverage_mean": 0.3703719447056452,
+          "sparsity_mean": 0.9651779214541117
+        },
+        "TI": {
+          "entropy_mean": 2.698927648862203,
+          "top5_coverage_mean": 0.19565218339363735,
+          "sparsity_mean": 0.9997398714224498
+        },
+        "IT": {
+          "entropy_mean": 1.616679072380066,
+          "top5_coverage_mean": 0.24848783115545908,
+          "sparsity_mean": 0.981729926665624
+        },
+        "II": {
+          "entropy_mean": 3.8362972656885783,
+          "top5_coverage_mean": 0.4772051175435384,
+          "sparsity_mean": 0.9984656790892283
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.5716766595840452,
+          "top5_coverage_mean": 0.4022346923748652,
+          "sparsity_mean": 0.9642753442128499
+        },
+        "TI": {
+          "entropy_mean": 2.5380093812942506,
+          "top5_coverage_mean": 0.2456391955415408,
+          "sparsity_mean": 0.9994032224019368
+        },
+        "IT": {
+          "entropy_mean": 1.4644244313240051,
+          "top5_coverage_mean": 0.25695928633213044,
+          "sparsity_mean": 0.9808769086996715
+        },
+        "II": {
+          "entropy_mean": 3.6497648557027182,
+          "top5_coverage_mean": 0.5262460887432099,
+          "sparsity_mean": 0.9980544845263163
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.4636264085769652,
+          "top5_coverage_mean": 0.4128137836853663,
+          "sparsity_mean": 0.9649780015150706
+        },
+        "TI": {
+          "entropy_mean": 2.4820873022079466,
+          "top5_coverage_mean": 0.2701764677961667,
+          "sparsity_mean": 0.9992096126079559
+        },
+        "IT": {
+          "entropy_mean": 1.3830076257387798,
+          "top5_coverage_mean": 0.25634363243977226,
+          "sparsity_mean": 0.9810998558998107
+        },
+        "II": {
+          "entropy_mean": 3.5971484661102293,
+          "top5_coverage_mean": 0.5478530198335647,
+          "sparsity_mean": 0.9979220469792683
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.3623761733373008,
+          "top5_coverage_mean": 0.41688653628031414,
+          "sparsity_mean": 0.9660542647043864
+        },
+        "TI": {
+          "entropy_mean": 2.4535104274749755,
+          "top5_coverage_mean": 0.29287876188755035,
+          "sparsity_mean": 0.9990383466084798
+        },
+        "IT": {
+          "entropy_mean": 1.2935998300711313,
+          "top5_coverage_mean": 0.24757416397333146,
+          "sparsity_mean": 0.9818837344646454
+        },
+        "II": {
+          "entropy_mean": 3.6139272928237913,
+          "top5_coverage_mean": 0.5697711149851481,
+          "sparsity_mean": 0.9978182315826416
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.3092424631118775,
+          "top5_coverage_mean": 0.416437237461408,
+          "sparsity_mean": 0.9668483416239421
+        },
+        "TI": {
+          "entropy_mean": 2.4481983820597333,
+          "top5_coverage_mean": 0.3049018760522207,
+          "sparsity_mean": 0.9989579280217489
+        },
+        "IT": {
+          "entropy_mean": 1.2300166408220927,
+          "top5_coverage_mean": 0.23802472154299417,
+          "sparsity_mean": 0.9828559120496114
+        },
+        "II": {
+          "entropy_mean": 3.6579375505447387,
+          "top5_coverage_mean": 0.584352237979571,
+          "sparsity_mean": 0.9977483212947845
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.5545434315999347,
+          "top5_coverage_mean": 0.40655034482479097,
+          "sparsity_mean": 0.964940321445465
+        },
+        "TI": {
+          "entropy_mean": 2.4879593292872113,
+          "top5_coverage_mean": 0.25373782714207965,
+          "sparsity_mean": 0.9992988844712575
+        },
+        "IT": {
+          "entropy_mean": 1.2389400243759154,
+          "top5_coverage_mean": 0.2059306840101878,
+          "sparsity_mean": 0.9851225992043813
+        },
+        "II": {
+          "entropy_mean": 3.9413177251815794,
+          "top5_coverage_mean": 0.5780191222826639,
+          "sparsity_mean": 0.997929048538208
+        }
+      }
+    },
+    "16": {
+      "0": {
+        "TT": {
+          "entropy_mean": 3.2757795015970865,
+          "top5_coverage_mean": 0.26985822021961214,
+          "sparsity_mean": 0.973235813776652
+        },
+        "TI": {
+          "entropy_mean": 2.8566102266311644,
+          "top5_coverage_mean": 0.11864445979396503,
+          "sparsity_mean": 0.9999251405398051
+        },
+        "IT": {
+          "entropy_mean": 1.5431407372156778,
+          "top5_coverage_mean": 0.3461753229300181,
+          "sparsity_mean": 0.9834325671195984
+        },
+        "II": {
+          "entropy_mean": 3.3871812423070273,
+          "top5_coverage_mean": 0.3861321032047272,
+          "sparsity_mean": 0.9991093893845876
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 3.1692618767420453,
+          "top5_coverage_mean": 0.3279625912507375,
+          "sparsity_mean": 0.9629795571168264
+        },
+        "TI": {
+          "entropy_mean": 2.441628615061442,
+          "top5_coverage_mean": 0.17179493606090546,
+          "sparsity_mean": 0.9998202641805013
+        },
+        "IT": {
+          "entropy_mean": 1.7755674878756205,
+          "top5_coverage_mean": 0.45591455698013306,
+          "sparsity_mean": 0.9796635011831919
+        },
+        "II": {
+          "entropy_mean": 2.3808245340983074,
+          "top5_coverage_mean": 0.3736230234305064,
+          "sparsity_mean": 0.9988669296105702
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 3.0079225142796835,
+          "top5_coverage_mean": 0.3496520946423213,
+          "sparsity_mean": 0.9616116881370544
+        },
+        "TI": {
+          "entropy_mean": 2.345252768198649,
+          "top5_coverage_mean": 0.21669381707906724,
+          "sparsity_mean": 0.9995455205440521
+        },
+        "IT": {
+          "entropy_mean": 1.6940176010131835,
+          "top5_coverage_mean": 0.4666397978862127,
+          "sparsity_mean": 0.9796127200126648
+        },
+        "II": {
+          "entropy_mean": 2.243181304136912,
+          "top5_coverage_mean": 0.3884210497140884,
+          "sparsity_mean": 0.9987198273340862
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.9110684156417848,
+          "top5_coverage_mean": 0.3609835316737493,
+          "sparsity_mean": 0.9619772891203563
+        },
+        "TI": {
+          "entropy_mean": 2.3080095767974855,
+          "top5_coverage_mean": 0.23842473775148393,
+          "sparsity_mean": 0.999370938539505
+        },
+        "IT": {
+          "entropy_mean": 1.6622668226559958,
+          "top5_coverage_mean": 0.47231691678365073,
+          "sparsity_mean": 0.9795549889405568
+        },
+        "II": {
+          "entropy_mean": 2.1930424690246584,
+          "top5_coverage_mean": 0.3911534647146861,
+          "sparsity_mean": 0.99871653119723
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.8006909688313804,
+          "top5_coverage_mean": 0.3675723890463511,
+          "sparsity_mean": 0.9630704482396444
+        },
+        "TI": {
+          "entropy_mean": 2.3192139903704327,
+          "top5_coverage_mean": 0.2590380385518074,
+          "sparsity_mean": 0.9992171128590902
+        },
+        "IT": {
+          "entropy_mean": 1.6370909253756205,
+          "top5_coverage_mean": 0.4697734862565994,
+          "sparsity_mean": 0.9796741445859273
+        },
+        "II": {
+          "entropy_mean": 2.225586998462677,
+          "top5_coverage_mean": 0.39514811237653097,
+          "sparsity_mean": 0.998735910654068
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.677796808878581,
+          "top5_coverage_mean": 0.3650399307409922,
+          "sparsity_mean": 0.9646629710992177
+        },
+        "TI": {
+          "entropy_mean": 2.4149725159009297,
+          "top5_coverage_mean": 0.2783929705619812,
+          "sparsity_mean": 0.9991118252277374
+        },
+        "IT": {
+          "entropy_mean": 1.587514078617096,
+          "top5_coverage_mean": 0.44782839020093285,
+          "sparsity_mean": 0.980497940381368
+        },
+        "II": {
+          "entropy_mean": 2.3989626010258993,
+          "top5_coverage_mean": 0.4099856406450272,
+          "sparsity_mean": 0.998707115650177
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.8964138507843016,
+          "top5_coverage_mean": 0.37961680193742114,
+          "sparsity_mean": 0.9627845426400502
+        },
+        "TI": {
+          "entropy_mean": 2.2387105067571005,
+          "top5_coverage_mean": 0.23205020974079768,
+          "sparsity_mean": 0.9993750313917796
+        },
+        "IT": {
+          "entropy_mean": 1.4515392184257507,
+          "top5_coverage_mean": 0.354239022731781,
+          "sparsity_mean": 0.9836065570513407
+        },
+        "II": {
+          "entropy_mean": 2.8576756556828817,
+          "top5_coverage_mean": 0.4772870481014252,
+          "sparsity_mean": 0.9984796663125356
+        }
+      }
+    },
+    "17": {
+      "0": {
+        "TT": {
+          "entropy_mean": 3.424761168162028,
+          "top5_coverage_mean": 0.3311121195554733,
+          "sparsity_mean": 0.9632297873497009
+        },
+        "TI": {
+          "entropy_mean": 2.2320641835530597,
+          "top5_coverage_mean": 0.10085082054138184,
+          "sparsity_mean": 0.9999246835708618
+        },
+        "IT": {
+          "entropy_mean": 1.1533566097418466,
+          "top5_coverage_mean": 0.19045151273409525,
+          "sparsity_mean": 0.9884441316127777
+        },
+        "II": {
+          "entropy_mean": 3.8076125224431356,
+          "top5_coverage_mean": 0.5109040806690852,
+          "sparsity_mean": 0.998774379491806
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 3.265693179766337,
+          "top5_coverage_mean": 0.42142500877380373,
+          "sparsity_mean": 0.9564924856026967
+        },
+        "TI": {
+          "entropy_mean": 1.8552411794662476,
+          "top5_coverage_mean": 0.11653101742267609,
+          "sparsity_mean": 0.9998826742172241
+        },
+        "IT": {
+          "entropy_mean": 1.613848829269409,
+          "top5_coverage_mean": 0.3373691807190577,
+          "sparsity_mean": 0.9798255860805511
+        },
+        "II": {
+          "entropy_mean": 2.5694326559702554,
+          "top5_coverage_mean": 0.47671012580394745,
+          "sparsity_mean": 0.9986953377723694
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 3.182098929087321,
+          "top5_coverage_mean": 0.4490532070398331,
+          "sparsity_mean": 0.9556817412376404
+        },
+        "TI": {
+          "entropy_mean": 1.7226480484008788,
+          "top5_coverage_mean": 0.13610504642128946,
+          "sparsity_mean": 0.9997441569964091
+        },
+        "IT": {
+          "entropy_mean": 1.537187969684601,
+          "top5_coverage_mean": 0.3570285568634669,
+          "sparsity_mean": 0.9800738255182903
+        },
+        "II": {
+          "entropy_mean": 2.368182317415873,
+          "top5_coverage_mean": 0.4832029789686203,
+          "sparsity_mean": 0.9985752840836842
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 3.1430289506912232,
+          "top5_coverage_mean": 0.45681807001431785,
+          "sparsity_mean": 0.9560021042823792
+        },
+        "TI": {
+          "entropy_mean": 1.6802253087361654,
+          "top5_coverage_mean": 0.14588462859392165,
+          "sparsity_mean": 0.9996637145678202
+        },
+        "IT": {
+          "entropy_mean": 1.5085368871688842,
+          "top5_coverage_mean": 0.37047511637210845,
+          "sparsity_mean": 0.9803319454193116
+        },
+        "II": {
+          "entropy_mean": 2.2689826289812722,
+          "top5_coverage_mean": 0.47909581462542217,
+          "sparsity_mean": 0.9986207524935404
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 3.1088057438532513,
+          "top5_coverage_mean": 0.4561238527297974,
+          "sparsity_mean": 0.9567255000273387
+        },
+        "TI": {
+          "entropy_mean": 1.6901458303133647,
+          "top5_coverage_mean": 0.15485446651776633,
+          "sparsity_mean": 0.9996035655339559
+        },
+        "IT": {
+          "entropy_mean": 1.4788150310516357,
+          "top5_coverage_mean": 0.38271655738353727,
+          "sparsity_mean": 0.9808878123760223
+        },
+        "II": {
+          "entropy_mean": 2.2058135986328127,
+          "top5_coverage_mean": 0.47233134011427563,
+          "sparsity_mean": 0.9987094819545745
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 3.0841562191645306,
+          "top5_coverage_mean": 0.44616344074408215,
+          "sparsity_mean": 0.9575676083564758
+        },
+        "TI": {
+          "entropy_mean": 1.7643271406491599,
+          "top5_coverage_mean": 0.16109450707832973,
+          "sparsity_mean": 0.9995867431163787
+        },
+        "IT": {
+          "entropy_mean": 1.434884738922119,
+          "top5_coverage_mean": 0.38659266034762063,
+          "sparsity_mean": 0.9820063134034475
+        },
+        "II": {
+          "entropy_mean": 2.224068220456441,
+          "top5_coverage_mean": 0.4686138977607091,
+          "sparsity_mean": 0.998778353134791
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 3.1904865662256876,
+          "top5_coverage_mean": 0.3955226252476374,
+          "sparsity_mean": 0.9583819488684336
+        },
+        "TI": {
+          "entropy_mean": 2.034331711133321,
+          "top5_coverage_mean": 0.14456328203280766,
+          "sparsity_mean": 0.9997620463371277
+        },
+        "IT": {
+          "entropy_mean": 1.507641863822937,
+          "top5_coverage_mean": 0.38161619007587433,
+          "sparsity_mean": 0.9832315305868785
+        },
+        "II": {
+          "entropy_mean": 2.316410279273987,
+          "top5_coverage_mean": 0.44114520847797395,
+          "sparsity_mean": 0.9990336418151855
+        }
+      }
+    },
+    "18": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.5604705015818277,
+          "top5_coverage_mean": 0.21979351490736007,
+          "sparsity_mean": 0.9784743507703145
+        },
+        "TI": {
+          "entropy_mean": 4.165626565615336,
+          "top5_coverage_mean": 0.12396457642316819,
+          "sparsity_mean": 0.9999610781669617
+        },
+        "IT": {
+          "entropy_mean": 1.6238319198290507,
+          "top5_coverage_mean": 0.17296270082394283,
+          "sparsity_mean": 0.9875811298688253
+        },
+        "II": {
+          "entropy_mean": 5.030672327677409,
+          "top5_coverage_mean": 0.2598827506105105,
+          "sparsity_mean": 0.9998247067133585
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.712650529543559,
+          "top5_coverage_mean": 0.33027354975541434,
+          "sparsity_mean": 0.9655775209267934
+        },
+        "TI": {
+          "entropy_mean": 3.1309799671173097,
+          "top5_coverage_mean": 0.18622111926476162,
+          "sparsity_mean": 0.9998270610968272
+        },
+        "IT": {
+          "entropy_mean": 1.8889462232589722,
+          "top5_coverage_mean": 0.2902256205677986,
+          "sparsity_mean": 0.9745382765928904
+        },
+        "II": {
+          "entropy_mean": 3.6353426376978555,
+          "top5_coverage_mean": 0.3728059033552806,
+          "sparsity_mean": 0.9992298046747844
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.660678005218506,
+          "top5_coverage_mean": 0.3559417774279912,
+          "sparsity_mean": 0.9638435582319895
+        },
+        "TI": {
+          "entropy_mean": 2.93524960676829,
+          "top5_coverage_mean": 0.21730937610069911,
+          "sparsity_mean": 0.9996695339679718
+        },
+        "IT": {
+          "entropy_mean": 1.6685129364331563,
+          "top5_coverage_mean": 0.294759002327919,
+          "sparsity_mean": 0.9759180843830109
+        },
+        "II": {
+          "entropy_mean": 3.535101358095805,
+          "top5_coverage_mean": 0.4352063039938609,
+          "sparsity_mean": 0.9987203697363536
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.6451766014099123,
+          "top5_coverage_mean": 0.3657395581404368,
+          "sparsity_mean": 0.9633721669514974
+        },
+        "TI": {
+          "entropy_mean": 2.8491671482721963,
+          "top5_coverage_mean": 0.22814600418011347,
+          "sparsity_mean": 0.9995910406112671
+        },
+        "IT": {
+          "entropy_mean": 1.5634528756141663,
+          "top5_coverage_mean": 0.2941522131363551,
+          "sparsity_mean": 0.9768980741500854
+        },
+        "II": {
+          "entropy_mean": 3.5040238459904987,
+          "top5_coverage_mean": 0.46112993558247883,
+          "sparsity_mean": 0.998533837000529
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.6280608733495074,
+          "top5_coverage_mean": 0.36753214995066324,
+          "sparsity_mean": 0.9634608447551727
+        },
+        "TI": {
+          "entropy_mean": 2.818252126375834,
+          "top5_coverage_mean": 0.2372564141949018,
+          "sparsity_mean": 0.999531477689743
+        },
+        "IT": {
+          "entropy_mean": 1.4440716743469237,
+          "top5_coverage_mean": 0.28342604835828145,
+          "sparsity_mean": 0.9786103467146555
+        },
+        "II": {
+          "entropy_mean": 3.531653944651286,
+          "top5_coverage_mean": 0.49055434862772623,
+          "sparsity_mean": 0.9983578105767568
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.6024080594380696,
+          "top5_coverage_mean": 0.3561741044123968,
+          "sparsity_mean": 0.9642059346040089
+        },
+        "TI": {
+          "entropy_mean": 2.884888935089111,
+          "top5_coverage_mean": 0.2456158717473348,
+          "sparsity_mean": 0.9995015243689219
+        },
+        "IT": {
+          "entropy_mean": 1.3463115294774373,
+          "top5_coverage_mean": 0.2648136223355929,
+          "sparsity_mean": 0.9804188867410024
+        },
+        "II": {
+          "entropy_mean": 3.6050111055374146,
+          "top5_coverage_mean": 0.517083885272344,
+          "sparsity_mean": 0.9982109328111013
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.6662314335505166,
+          "top5_coverage_mean": 0.2924325386683146,
+          "sparsity_mean": 0.9675898273785909
+        },
+        "TI": {
+          "entropy_mean": 3.245617429415385,
+          "top5_coverage_mean": 0.2227716142932574,
+          "sparsity_mean": 0.9996882736682892
+        },
+        "IT": {
+          "entropy_mean": 1.1513088862101237,
+          "top5_coverage_mean": 0.17839881976445515,
+          "sparsity_mean": 0.986046572526296
+        },
+        "II": {
+          "entropy_mean": 4.067881687482198,
+          "top5_coverage_mean": 0.5802942117055258,
+          "sparsity_mean": 0.9979846556981404
+        }
+      }
+    },
+    "19": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.7121177434921266,
+          "top5_coverage_mean": 0.26178780098756155,
+          "sparsity_mean": 0.9781060993671418
+        },
+        "TI": {
+          "entropy_mean": 3.71576148668925,
+          "top5_coverage_mean": 0.10667048295338949,
+          "sparsity_mean": 0.9999656498432159
+        },
+        "IT": {
+          "entropy_mean": 1.5459136247634888,
+          "top5_coverage_mean": 0.20151244848966599,
+          "sparsity_mean": 0.9850688318411509
+        },
+        "II": {
+          "entropy_mean": 3.7333795070648192,
+          "top5_coverage_mean": 0.4027721424897512,
+          "sparsity_mean": 0.9992669860521952
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.325430647532145,
+          "top5_coverage_mean": 0.20494613150755564,
+          "sparsity_mean": 0.9790378153324127
+        },
+        "TI": {
+          "entropy_mean": 4.094486530621847,
+          "top5_coverage_mean": 0.22961821556091308,
+          "sparsity_mean": 0.9998799900213877
+        },
+        "IT": {
+          "entropy_mean": 1.9054698069890341,
+          "top5_coverage_mean": 0.32700781027475995,
+          "sparsity_mean": 0.9752069016297659
+        },
+        "II": {
+          "entropy_mean": 2.496164258321126,
+          "top5_coverage_mean": 0.41611291964848834,
+          "sparsity_mean": 0.9992249270280202
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.270331041018168,
+          "top5_coverage_mean": 0.22025420665740966,
+          "sparsity_mean": 0.9771892269452412
+        },
+        "TI": {
+          "entropy_mean": 3.8326573371887207,
+          "top5_coverage_mean": 0.29877951741218567,
+          "sparsity_mean": 0.9995543519655864
+        },
+        "IT": {
+          "entropy_mean": 1.8370598872502646,
+          "top5_coverage_mean": 0.3605938414732615,
+          "sparsity_mean": 0.9750352879365285
+        },
+        "II": {
+          "entropy_mean": 2.272880546251933,
+          "top5_coverage_mean": 0.42488929828008015,
+          "sparsity_mean": 0.9990840514500936
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.201862176259359,
+          "top5_coverage_mean": 0.2238169640302658,
+          "sparsity_mean": 0.9769682188828787
+        },
+        "TI": {
+          "entropy_mean": 3.7450217564900714,
+          "top5_coverage_mean": 0.3360075910886129,
+          "sparsity_mean": 0.9992786983648936
+        },
+        "IT": {
+          "entropy_mean": 1.7720044414202372,
+          "top5_coverage_mean": 0.372348756591479,
+          "sparsity_mean": 0.9756220678488413
+        },
+        "II": {
+          "entropy_mean": 2.2222574869791667,
+          "top5_coverage_mean": 0.4322505871454875,
+          "sparsity_mean": 0.9990233620007832
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.0915023485819497,
+          "top5_coverage_mean": 0.22243509739637374,
+          "sparsity_mean": 0.9774525185426076
+        },
+        "TI": {
+          "entropy_mean": 3.723401729265849,
+          "top5_coverage_mean": 0.37361788352330527,
+          "sparsity_mean": 0.9989796797434489
+        },
+        "IT": {
+          "entropy_mean": 1.6776902476946514,
+          "top5_coverage_mean": 0.37408661643664043,
+          "sparsity_mean": 0.9770411650339762
+        },
+        "II": {
+          "entropy_mean": 2.2412999947865804,
+          "top5_coverage_mean": 0.44682887693246204,
+          "sparsity_mean": 0.9989408751328787
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 1.9832806706428527,
+          "top5_coverage_mean": 0.21644770801067353,
+          "sparsity_mean": 0.9784491121768951
+        },
+        "TI": {
+          "entropy_mean": 3.768049375216166,
+          "top5_coverage_mean": 0.39981391131877897,
+          "sparsity_mean": 0.998791617155075
+        },
+        "IT": {
+          "entropy_mean": 1.5898109992345175,
+          "top5_coverage_mean": 0.36136777500311534,
+          "sparsity_mean": 0.9787613650163015
+        },
+        "II": {
+          "entropy_mean": 2.330459694067637,
+          "top5_coverage_mean": 0.4673149754603704,
+          "sparsity_mean": 0.9988399306933086
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.2282386700312298,
+          "top5_coverage_mean": 0.23902308990557988,
+          "sparsity_mean": 0.9772001286347707
+        },
+        "TI": {
+          "entropy_mean": 3.488106910387675,
+          "top5_coverage_mean": 0.34387765228748324,
+          "sparsity_mean": 0.9990722457567851
+        },
+        "IT": {
+          "entropy_mean": 1.6182855367660522,
+          "top5_coverage_mean": 0.32686639626820885,
+          "sparsity_mean": 0.9808813095092773
+        },
+        "II": {
+          "entropy_mean": 2.3044303258260093,
+          "top5_coverage_mean": 0.49618375599384307,
+          "sparsity_mean": 0.9986723721027374
+        }
+      }
+    },
+    "20": {
+      "0": {
+        "TT": {
+          "entropy_mean": 3.279317283630371,
+          "top5_coverage_mean": 0.30657201210657753,
+          "sparsity_mean": 0.9688461283842723
+        },
+        "TI": {
+          "entropy_mean": 2.591265670458476,
+          "top5_coverage_mean": 0.10732796390851339,
+          "sparsity_mean": 0.9999658723672231
+        },
+        "IT": {
+          "entropy_mean": 1.8992903272310893,
+          "top5_coverage_mean": 0.1544759730497996,
+          "sparsity_mean": 0.9850327789783477
+        },
+        "II": {
+          "entropy_mean": 3.902549449602763,
+          "top5_coverage_mean": 0.3660939435164134,
+          "sparsity_mean": 0.9995272835095723
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 3.2149873892466228,
+          "top5_coverage_mean": 0.37200193901856743,
+          "sparsity_mean": 0.9613185624281565
+        },
+        "TI": {
+          "entropy_mean": 1.997059945265452,
+          "top5_coverage_mean": 0.15150313054521877,
+          "sparsity_mean": 0.9998218258221944
+        },
+        "IT": {
+          "entropy_mean": 1.8536218802134197,
+          "top5_coverage_mean": 0.27989500065644585,
+          "sparsity_mean": 0.9733723441759745
+        },
+        "II": {
+          "entropy_mean": 2.6811870535214744,
+          "top5_coverage_mean": 0.4833330144484838,
+          "sparsity_mean": 0.9987528840700786
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.907893411318461,
+          "top5_coverage_mean": 0.40691824654738107,
+          "sparsity_mean": 0.9617983023325603
+        },
+        "TI": {
+          "entropy_mean": 2.018121528625488,
+          "top5_coverage_mean": 0.19849906315406163,
+          "sparsity_mean": 0.9995630760987599
+        },
+        "IT": {
+          "entropy_mean": 1.4931232810020447,
+          "top5_coverage_mean": 0.26815992246071496,
+          "sparsity_mean": 0.9778429786364238
+        },
+        "II": {
+          "entropy_mean": 2.7831308046976724,
+          "top5_coverage_mean": 0.560631513595581,
+          "sparsity_mean": 0.9982052306334178
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.734220854441325,
+          "top5_coverage_mean": 0.41470901668071747,
+          "sparsity_mean": 0.9631104250748952
+        },
+        "TI": {
+          "entropy_mean": 2.0866470336914062,
+          "top5_coverage_mean": 0.2259176750977834,
+          "sparsity_mean": 0.9993891417980194
+        },
+        "IT": {
+          "entropy_mean": 1.3098434607187908,
+          "top5_coverage_mean": 0.24306731224060057,
+          "sparsity_mean": 0.980446207523346
+        },
+        "II": {
+          "entropy_mean": 2.9075942993164063,
+          "top5_coverage_mean": 0.6064361254374186,
+          "sparsity_mean": 0.9979150156180064
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.5621657450993855,
+          "top5_coverage_mean": 0.4138569047053655,
+          "sparsity_mean": 0.9650318046410878
+        },
+        "TI": {
+          "entropy_mean": 2.196208190917969,
+          "top5_coverage_mean": 0.2545460075139999,
+          "sparsity_mean": 0.9992103000481923
+        },
+        "IT": {
+          "entropy_mean": 1.1139345983664195,
+          "top5_coverage_mean": 0.20440151145060856,
+          "sparsity_mean": 0.9836679577827454
+        },
+        "II": {
+          "entropy_mean": 3.0826056718826296,
+          "top5_coverage_mean": 0.6577008545398713,
+          "sparsity_mean": 0.9976131995519002
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.4758429845174152,
+          "top5_coverage_mean": 0.408306360244751,
+          "sparsity_mean": 0.9662993371486663
+        },
+        "TI": {
+          "entropy_mean": 2.2867340485254926,
+          "top5_coverage_mean": 0.26860687832037605,
+          "sparsity_mean": 0.9991403202215831
+        },
+        "IT": {
+          "entropy_mean": 1.0151079952716828,
+          "top5_coverage_mean": 0.17944976687431335,
+          "sparsity_mean": 0.9855721056461334
+        },
+        "II": {
+          "entropy_mean": 3.186402265230815,
+          "top5_coverage_mean": 0.6846042692661285,
+          "sparsity_mean": 0.9974603911240896
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.7493290503819785,
+          "top5_coverage_mean": 0.38968083560466765,
+          "sparsity_mean": 0.9631397684415182
+        },
+        "TI": {
+          "entropy_mean": 2.28179923693339,
+          "top5_coverage_mean": 0.22132284492254256,
+          "sparsity_mean": 0.9994873305161794
+        },
+        "IT": {
+          "entropy_mean": 1.1604439040025076,
+          "top5_coverage_mean": 0.18413236886262893,
+          "sparsity_mean": 0.985142985979716
+        },
+        "II": {
+          "entropy_mean": 3.1673253138860065,
+          "top5_coverage_mean": 0.6503488580385844,
+          "sparsity_mean": 0.997683447599411
+        }
+      }
+    },
+    "21": {
+      "0": {
+        "TT": {
+          "entropy_mean": 3.2615813414255777,
+          "top5_coverage_mean": 0.2671883498628934,
+          "sparsity_mean": 0.9752500077088674
+        },
+        "TI": {
+          "entropy_mean": 2.872087860107422,
+          "top5_coverage_mean": 0.0923057680328687,
+          "sparsity_mean": 0.9999402304490407
+        },
+        "IT": {
+          "entropy_mean": 1.7533528129259746,
+          "top5_coverage_mean": 0.148719405879577,
+          "sparsity_mean": 0.9859094083309173
+        },
+        "II": {
+          "entropy_mean": 3.8101178487141927,
+          "top5_coverage_mean": 0.4251212477684021,
+          "sparsity_mean": 0.9989712238311768
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 3.072587505976359,
+          "top5_coverage_mean": 0.27169066816568377,
+          "sparsity_mean": 0.9709269185860951
+        },
+        "TI": {
+          "entropy_mean": 2.8362060308456423,
+          "top5_coverage_mean": 0.16558461983998615,
+          "sparsity_mean": 0.9998285154501597
+        },
+        "IT": {
+          "entropy_mean": 1.6013269742329916,
+          "top5_coverage_mean": 0.21949628194173176,
+          "sparsity_mean": 0.9794384757677714
+        },
+        "II": {
+          "entropy_mean": 3.201086735725403,
+          "top5_coverage_mean": 0.5186929921309154,
+          "sparsity_mean": 0.9984560271104177
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.825224502881368,
+          "top5_coverage_mean": 0.2768094763159752,
+          "sparsity_mean": 0.9698419570922852
+        },
+        "TI": {
+          "entropy_mean": 2.9423996448516845,
+          "top5_coverage_mean": 0.22621327886978784,
+          "sparsity_mean": 0.9995760361353556
+        },
+        "IT": {
+          "entropy_mean": 1.4264636834462483,
+          "top5_coverage_mean": 0.23275150855382284,
+          "sparsity_mean": 0.98012415766716
+        },
+        "II": {
+          "entropy_mean": 3.035421442985535,
+          "top5_coverage_mean": 0.5641787429650624,
+          "sparsity_mean": 0.998131912946701
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.6960527261098224,
+          "top5_coverage_mean": 0.27329316387573876,
+          "sparsity_mean": 0.9699865897496541
+        },
+        "TI": {
+          "entropy_mean": 3.0234464009602866,
+          "top5_coverage_mean": 0.255388339360555,
+          "sparsity_mean": 0.9994287431240082
+        },
+        "IT": {
+          "entropy_mean": 1.3509405811627706,
+          "top5_coverage_mean": 0.2386241838335991,
+          "sparsity_mean": 0.9808606843153636
+        },
+        "II": {
+          "entropy_mean": 2.987275822957357,
+          "top5_coverage_mean": 0.5766758998235066,
+          "sparsity_mean": 0.9980638702710469
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.5457117875417072,
+          "top5_coverage_mean": 0.2611901253461838,
+          "sparsity_mean": 0.9712356309096019
+        },
+        "TI": {
+          "entropy_mean": 3.1752716382344564,
+          "top5_coverage_mean": 0.2836590598026911,
+          "sparsity_mean": 0.9993014514446259
+        },
+        "IT": {
+          "entropy_mean": 1.2822109242280324,
+          "top5_coverage_mean": 0.239451764523983,
+          "sparsity_mean": 0.9819392422835033
+        },
+        "II": {
+          "entropy_mean": 2.9804304122924803,
+          "top5_coverage_mean": 0.5856128513813019,
+          "sparsity_mean": 0.9980220516522725
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 2.4085103432337442,
+          "top5_coverage_mean": 0.2444351688027382,
+          "sparsity_mean": 0.9730849285920461
+        },
+        "TI": {
+          "entropy_mean": 3.370095403989156,
+          "top5_coverage_mean": 0.3030234615008036,
+          "sparsity_mean": 0.9992525239785512
+        },
+        "IT": {
+          "entropy_mean": 1.2336159467697143,
+          "top5_coverage_mean": 0.23248432675997416,
+          "sparsity_mean": 0.9831241766611735
+        },
+        "II": {
+          "entropy_mean": 3.0296355962753294,
+          "top5_coverage_mean": 0.5936065971851349,
+          "sparsity_mean": 0.9979849139849345
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 2.353417245546977,
+          "top5_coverage_mean": 0.2180485854546229,
+          "sparsity_mean": 0.976665331919988
+        },
+        "TI": {
+          "entropy_mean": 3.6290152867635093,
+          "top5_coverage_mean": 0.28738234043121336,
+          "sparsity_mean": 0.9994710763295491
+        },
+        "IT": {
+          "entropy_mean": 1.3022511005401611,
+          "top5_coverage_mean": 0.1833806703488032,
+          "sparsity_mean": 0.9846732556819916
+        },
+        "II": {
+          "entropy_mean": 3.1305087486902874,
+          "top5_coverage_mean": 0.6173308948675792,
+          "sparsity_mean": 0.9978760858376821
+        }
+      }
+    },
+    "22": {
+      "0": {
+        "TT": {
+          "entropy_mean": 2.5342601537704468,
+          "top5_coverage_mean": 0.28877027332782745,
+          "sparsity_mean": 0.9848467965920766
+        },
+        "TI": {
+          "entropy_mean": 3.3989013036092124,
+          "top5_coverage_mean": 0.0787135327855746,
+          "sparsity_mean": 0.9999147097269694
+        },
+        "IT": {
+          "entropy_mean": 1.2613890171051025,
+          "top5_coverage_mean": 0.22220827092727025,
+          "sparsity_mean": 0.9868186553319295
+        },
+        "II": {
+          "entropy_mean": 2.950580135981242,
+          "top5_coverage_mean": 0.46160314281781517,
+          "sparsity_mean": 0.9992000758647919
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 2.421237818400065,
+          "top5_coverage_mean": 0.2925650765498479,
+          "sparsity_mean": 0.9800491333007812
+        },
+        "TI": {
+          "entropy_mean": 3.365633511543274,
+          "top5_coverage_mean": 0.12994696522752444,
+          "sparsity_mean": 0.9997895856698354
+        },
+        "IT": {
+          "entropy_mean": 1.752783993879954,
+          "top5_coverage_mean": 0.3426388253768285,
+          "sparsity_mean": 0.9764354825019836
+        },
+        "II": {
+          "entropy_mean": 1.6612262805302938,
+          "top5_coverage_mean": 0.4338484893242518,
+          "sparsity_mean": 0.9992173830668132
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 2.348487941424052,
+          "top5_coverage_mean": 0.269911515712738,
+          "sparsity_mean": 0.9790903588136037
+        },
+        "TI": {
+          "entropy_mean": 3.516050632794698,
+          "top5_coverage_mean": 0.16749704331159593,
+          "sparsity_mean": 0.9997187892595927
+        },
+        "IT": {
+          "entropy_mean": 1.6127484122912088,
+          "top5_coverage_mean": 0.35425628821055094,
+          "sparsity_mean": 0.977821962038676
+        },
+        "II": {
+          "entropy_mean": 1.549973766009013,
+          "top5_coverage_mean": 0.4630388269821803,
+          "sparsity_mean": 0.9991547882556915
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 2.305553436279297,
+          "top5_coverage_mean": 0.25060724864403405,
+          "sparsity_mean": 0.979197084903717
+        },
+        "TI": {
+          "entropy_mean": 3.6337213277816773,
+          "top5_coverage_mean": 0.19055762986342112,
+          "sparsity_mean": 0.9996577024459838
+        },
+        "IT": {
+          "entropy_mean": 1.5007501165072124,
+          "top5_coverage_mean": 0.341351447502772,
+          "sparsity_mean": 0.9795069833596547
+        },
+        "II": {
+          "entropy_mean": 1.5900776664415994,
+          "top5_coverage_mean": 0.4941790997982025,
+          "sparsity_mean": 0.9990655402342479
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 2.220886301994324,
+          "top5_coverage_mean": 0.2191894774635633,
+          "sparsity_mean": 0.9805797835191091
+        },
+        "TI": {
+          "entropy_mean": 3.859368936220805,
+          "top5_coverage_mean": 0.22077721506357192,
+          "sparsity_mean": 0.999561623732249
+        },
+        "IT": {
+          "entropy_mean": 1.3400447289148967,
+          "top5_coverage_mean": 0.30213386515776314,
+          "sparsity_mean": 0.9824484368165334
+        },
+        "II": {
+          "entropy_mean": 1.7530682603518168,
+          "top5_coverage_mean": 0.5472070296605428,
+          "sparsity_mean": 0.9988934775193532
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 1.9973617990811665,
+          "top5_coverage_mean": 0.1756366729736328,
+          "sparsity_mean": 0.9837178230285645
+        },
+        "TI": {
+          "entropy_mean": 4.297283085187276,
+          "top5_coverage_mean": 0.2653000364700953,
+          "sparsity_mean": 0.9994269331296285
+        },
+        "IT": {
+          "entropy_mean": 1.256925352414449,
+          "top5_coverage_mean": 0.2645457218090693,
+          "sparsity_mean": 0.9844888190428416
+        },
+        "II": {
+          "entropy_mean": 1.93577401638031,
+          "top5_coverage_mean": 0.582116695245107,
+          "sparsity_mean": 0.9987627148628235
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 3.0121891021728517,
+          "top5_coverage_mean": 0.21773332208395005,
+          "sparsity_mean": 0.9792811493078868
+        },
+        "TI": {
+          "entropy_mean": 3.0702550729115803,
+          "top5_coverage_mean": 0.16267116765181225,
+          "sparsity_mean": 0.9997928460439046
+        },
+        "IT": {
+          "entropy_mean": 1.221013347307841,
+          "top5_coverage_mean": 0.17826599776744842,
+          "sparsity_mean": 0.9870442926883698
+        },
+        "II": {
+          "entropy_mean": 2.3061858495076497,
+          "top5_coverage_mean": 0.6300947666168213,
+          "sparsity_mean": 0.9986292680104574
+        }
+      }
+    },
+    "23": {
+      "0": {
+        "TT": {
+          "entropy_mean": 0.6167314509550731,
+          "top5_coverage_mean": 0.0055806819349527356,
+          "sparsity_mean": 0.9999999403953552
+        },
+        "TI": {
+          "entropy_mean": 7.699307791392008,
+          "top5_coverage_mean": 0.07846156880259514,
+          "sparsity_mean": 1.0
+        },
+        "IT": {
+          "entropy_mean": 2.129367550214132,
+          "top5_coverage_mean": 0.5434203972419103,
+          "sparsity_mean": 0.975472871462504
+        },
+        "II": {
+          "entropy_mean": 1.6854941964149475,
+          "top5_coverage_mean": 0.19194029966990153,
+          "sparsity_mean": 0.9996403952439626
+        }
+      },
+      "4": {
+        "TT": {
+          "entropy_mean": 0.6294868985811869,
+          "top5_coverage_mean": 0.005771723824242751,
+          "sparsity_mean": 0.9999999403953552
+        },
+        "TI": {
+          "entropy_mean": 7.6805410544077555,
+          "top5_coverage_mean": 0.08370570043722789,
+          "sparsity_mean": 1.0
+        },
+        "IT": {
+          "entropy_mean": 2.1174729744593304,
+          "top5_coverage_mean": 0.5932460367679596,
+          "sparsity_mean": 0.975356129805247
+        },
+        "II": {
+          "entropy_mean": 1.3165518244107564,
+          "top5_coverage_mean": 0.2198442593216896,
+          "sparsity_mean": 0.9994692285855611
+        }
+      },
+      "9": {
+        "TT": {
+          "entropy_mean": 0.632287855943044,
+          "top5_coverage_mean": 0.006142613291740417,
+          "sparsity_mean": 0.9999999344348908
+        },
+        "TI": {
+          "entropy_mean": 7.655724891026815,
+          "top5_coverage_mean": 0.09111655602852503,
+          "sparsity_mean": 1.0
+        },
+        "IT": {
+          "entropy_mean": 1.9161656578381856,
+          "top5_coverage_mean": 0.6082961519559225,
+          "sparsity_mean": 0.9775061031182607
+        },
+        "II": {
+          "entropy_mean": 1.3225690166155497,
+          "top5_coverage_mean": 0.2425210490822792,
+          "sparsity_mean": 0.999397470553716
+        }
+      },
+      "13": {
+        "TT": {
+          "entropy_mean": 0.6371472160021464,
+          "top5_coverage_mean": 0.006307543627917767,
+          "sparsity_mean": 0.9999998370806377
+        },
+        "TI": {
+          "entropy_mean": 7.6403488953908285,
+          "top5_coverage_mean": 0.0943204032878081,
+          "sparsity_mean": 0.9999999940395355
+        },
+        "IT": {
+          "entropy_mean": 1.8481636881828307,
+          "top5_coverage_mean": 0.6050510962804159,
+          "sparsity_mean": 0.9779569288094838
+        },
+        "II": {
+          "entropy_mean": 1.3646109183629354,
+          "top5_coverage_mean": 0.25528792043526966,
+          "sparsity_mean": 0.9993954002857208
+        }
+      },
+      "18": {
+        "TT": {
+          "entropy_mean": 0.6415245950222015,
+          "top5_coverage_mean": 0.006347676987449328,
+          "sparsity_mean": 0.9999998231728872
+        },
+        "TI": {
+          "entropy_mean": 7.625272003809611,
+          "top5_coverage_mean": 0.0973828578988711,
+          "sparsity_mean": 0.9999998907248179
+        },
+        "IT": {
+          "entropy_mean": 1.791959003607432,
+          "top5_coverage_mean": 0.5790395031372706,
+          "sparsity_mean": 0.9785265564918518
+        },
+        "II": {
+          "entropy_mean": 1.5487854798634848,
+          "top5_coverage_mean": 0.27686793108781177,
+          "sparsity_mean": 0.9993922054767609
+        }
+      },
+      "22": {
+        "TT": {
+          "entropy_mean": 0.6364581704139709,
+          "top5_coverage_mean": 0.006195589403311412,
+          "sparsity_mean": 0.9999998569488525
+        },
+        "TI": {
+          "entropy_mean": 7.622778367996216,
+          "top5_coverage_mean": 0.09961395536859831,
+          "sparsity_mean": 0.9999997119108835
+        },
+        "IT": {
+          "entropy_mean": 1.749315603574117,
+          "top5_coverage_mean": 0.5169232467810313,
+          "sparsity_mean": 0.9791344920794169
+        },
+        "II": {
+          "entropy_mean": 1.969680384794871,
+          "top5_coverage_mean": 0.3088746915260951,
+          "sparsity_mean": 0.9993706365426381
+        }
+      },
+      "27": {
+        "TT": {
+          "entropy_mean": 0.6397052824497222,
+          "top5_coverage_mean": 0.005582795478403568,
+          "sparsity_mean": 0.9999999403953552
+        },
+        "TI": {
+          "entropy_mean": 7.5902046362559,
+          "top5_coverage_mean": 0.1076918438076973,
+          "sparsity_mean": 0.9999967614809672
+        },
+        "IT": {
+          "entropy_mean": 1.6711892207463583,
+          "top5_coverage_mean": 0.31693046589692436,
+          "sparsity_mean": 0.9836265782515208
+        },
+        "II": {
+          "entropy_mean": 2.9358609040578205,
+          "top5_coverage_mean": 0.3711741457382838,
+          "sparsity_mean": 0.9991787016391754
+        }
+      }
+    }
+  }
+}

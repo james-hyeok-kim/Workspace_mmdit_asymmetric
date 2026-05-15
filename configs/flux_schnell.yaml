@@ -1,0 +1,32 @@
+# FLUX.1-schnell — smoke test 전용 config
+# 이미 캐시된 모델로 코드 검증. Full test는 flux_dev.yaml 사용.
+model:
+  name: "black-forest-labs/FLUX.1-schnell"
+  torch_dtype: "bfloat16"
+
+generation:
+  num_inference_steps: 4
+  guidance_scale: 0.0   # schnell은 CFG-distilled, guidance_scale=0
+  height: 1024
+  width: 1024
+  seed: 42
+
+architecture:
+  num_double_blocks: 19
+  num_single_blocks: 38
+  num_text_tokens: 256
+  num_image_tokens: 4096
+
+eval:
+  n_prompts: 10
+  prompt_sources:
+    - {dataset: "xingjianleng/mjhq30k", split: "test", key: "text", n: 10}
+  fid_features: 2048
+  clip_model: "openai/clip-vit-large-patch14"
+
+analysis:
+  n_prompts_dynamics: 10
+  n_prompts_sparsity: 5
+  n_prompts_ablation: 10
+  n_prompts_kv_drift: 10
+  step_sample_indices: [0, 1, 2, 3]

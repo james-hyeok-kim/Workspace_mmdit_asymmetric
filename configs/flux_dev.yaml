@@ -1,0 +1,32 @@
+model:
+  name: "/data/jameskimh/flux_pretrained/FLUX.1-dev"
+  torch_dtype: "bfloat16"
+
+generation:
+  num_inference_steps: 28
+  guidance_scale: 3.5
+  height: 1024
+  width: 1024
+  seed: 42
+
+architecture:
+  num_double_blocks: 19   # transformer_blocks[0..18]
+  num_single_blocks: 38   # single_transformer_blocks[0..37]
+  num_text_tokens: 256    # T5 sequence length (padded)
+  num_image_tokens: 4096  # 1024×1024 / 16^2 = 4096 latent patches
+
+eval:
+  n_prompts: 350
+  prompt_sources:
+    - {dataset: "xingjianleng/mjhq30k",       split: "test",  key: "text",   n: 200}
+    - {dataset: "phiyodr/coco2017",            split: "train", key: "caption", n: 100}
+    - {dataset: "sayakpaul/geneval_prompts",   split: "train", key: "prompt", n: 50}
+  fid_features: 2048
+  clip_model: "openai/clip-vit-large-patch14"
+
+analysis:
+  n_prompts_dynamics: 50     # stream dynamics (실험 A) — 50개면 안정적 통계
+  n_prompts_sparsity: 30     # attention sparsity (실험 B) — 메모리 부담
+  n_prompts_ablation: 350    # branch ablation (실험 C) — 전체
+  n_prompts_kv_drift: 50     # KV drift (실험 D)
+  step_sample_indices: [0, 4, 9, 13, 18, 22, 27]  # early/mid/late steps to capture (실험 B)

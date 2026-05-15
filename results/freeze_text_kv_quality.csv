@@ -1,0 +1,4 @@
+schedule,freeze_from,psnr,n_eval
+no_freeze,9999,62.98566258650712,50
+freeze_from_1,1,10.431605291963159,50
+freeze_from_5,5,16.29993931439116,50

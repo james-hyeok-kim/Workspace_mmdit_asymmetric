@@ -1,0 +1,32 @@
+model:
+  name: "/data/jameskimh/sd3_pretrained/SD3-medium"
+  torch_dtype: "float16"
+
+generation:
+  num_inference_steps: 28
+  guidance_scale: 7.0
+  height: 1024
+  width: 1024
+  seed: 42
+
+architecture:
+  num_double_blocks: 24   # transformer_blocks[0..23] (all double-stream)
+  num_single_blocks: 0    # SD3 has no single-stream blocks (contrast with FLUX)
+  num_text_tokens: 333    # CLIP-L(77) + CLIP-G(77) + T5(77+102=179) concat → ~333
+  num_image_tokens: 4096  # same as FLUX for 1024×1024
+
+eval:
+  n_prompts: 350
+  prompt_sources:
+    - {dataset: "xingjianleng/mjhq30k",       split: "test",  key: "text",   n: 200}
+    - {dataset: "phiyodr/coco2017",            split: "train", key: "caption", n: 100}
+    - {dataset: "sayakpaul/geneval_prompts",   split: "train", key: "prompt", n: 50}
+  fid_features: 2048
+  clip_model: "openai/clip-vit-large-patch14"
+
+analysis:
+  n_prompts_dynamics: 50
+  n_prompts_sparsity: 30
+  n_prompts_ablation: 350
+  n_prompts_kv_drift: 50
+  step_sample_indices: [0, 4, 9, 13, 18, 22, 27]
